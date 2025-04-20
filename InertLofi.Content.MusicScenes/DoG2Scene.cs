@@ -19,10 +19,10 @@ public class DoG2Scene : ModSceneEffect
         {
             if (Main.npc[i].active && Main.npc[i].type == wantedId)
             {
-                if ((DevourerofGodsHead)Main.npc[i].Phase2Started)
-                {
-                    inPhase2 = true;
-                }
+                //if ((DevourerofGodsHead)Main.npc[i].Phase2Started)
+                //{
+                //    inPhase2 = true;
+                //}
             }
         }
         return inPhase2 && !BossRushEvent.BossRushActive;
