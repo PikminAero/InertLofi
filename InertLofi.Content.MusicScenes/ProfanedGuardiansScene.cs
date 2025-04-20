@@ -1,5 +1,4 @@
 ﻿using CalamityMod.Events;
-using CalamityMod.NPCs.Leviathan;
 using CalamityMod.NPCs.ProfanedGuardians;
 using Terraria;
 using Terraria.ModLoader;

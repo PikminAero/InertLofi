@@ -1,6 +1,4 @@
 ﻿using CalamityMod.Events;
-using CalamityMod.NPCs.Bumblebirb;
-using CalamityMod.NPCs.PlaguebringerGoliath;
 using CalamityMod.NPCs.Providence;
 using Terraria;
 using Terraria.ModLoader;
