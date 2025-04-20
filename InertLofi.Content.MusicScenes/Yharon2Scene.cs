@@ -1,5 +1,4 @@
 ﻿using CalamityMod.Events;
-using CalamityMod.NPCs.DevourerofGods;
 using CalamityMod.NPCs.Yharon;
 using Terraria;
 using Terraria.ModLoader;

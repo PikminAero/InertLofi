@@ -1,8 +1,6 @@
 ﻿using CalamityMod.Events;
 using CalamityMod.NPCs.Abyss;
-using CalamityMod.NPCs.DevourerofGods;
 using CalamityMod.NPCs.PrimordialWyrm;
-using CalamityMod.NPCs.Yharon;
 using Terraria;
 using Terraria.ModLoader;
 
