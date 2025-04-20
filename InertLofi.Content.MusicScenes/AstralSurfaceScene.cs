@@ -1,6 +1,4 @@
 ﻿using CalamityMod.BiomeManagers;
-using CalamityMod.Events;
-using CalamityMod.NPCs.AstrumAureus;
 using Terraria;
 using Terraria.ModLoader;
 
