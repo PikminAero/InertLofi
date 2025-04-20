@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class DoG2Scene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/DoG1");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/DoG2");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 
