@@ -1,0 +1,5 @@
+displayName = Inert Lofi
+author = PikminAero
+version = 0.1
+modReferences = CalamityMod
+sortAfter = CalamityMod
