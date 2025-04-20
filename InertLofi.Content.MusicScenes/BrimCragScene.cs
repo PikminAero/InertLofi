@@ -14,6 +14,6 @@ public class BrimCragScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<BioLabMusicScene>();
+        return player.InModBiome<BrimstoneCragsBiome>();
     }
 }
