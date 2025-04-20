@@ -8,7 +8,7 @@ public class AstralSurfaceScene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AstralSurface");
 
-    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeHigh;
+    public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
 
     public override bool IsSceneEffectActive(Player player)
     {

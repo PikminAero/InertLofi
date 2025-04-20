@@ -9,7 +9,7 @@ public class SunkenSea : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/SunkenSea");
 
-    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeHigh;
+    public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
 
     public override bool IsSceneEffectActive(Player player)
     {

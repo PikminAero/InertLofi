@@ -13,7 +13,7 @@ public class BioLabScene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/BioLab");
 
-    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeHigh;
+    public override SceneEffectPriority Priority => SceneEffectPriority.Event;
 
     public override bool IsSceneEffectActive(Player player)
     {
