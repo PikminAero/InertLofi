@@ -15,15 +15,12 @@ public class DoG2Scene : ModSceneEffect
     {
         int wantedId = ModContent.NPCType<DevourerofGodsHead>();
         bool inPhase2 = false;
-        for (int i = 0; i < 200; i++)
+        ModNPC npc = default(ModNPC);
+        ModLoader.GetMod("CalamityMod").TryFind<ModNPC>("DevourerofGodsHead", out npc);
+        DevourerofGodsHead DoG = (DevourerofGodsHead)npc;
+        if (DoG != null)
         {
-            if (Main.npc[i].active && Main.npc[i].type == wantedId)
-            {
-                //if ((DevourerofGodsHead)Main.npc[i].Phase2Started)
-                //{
-                //    inPhase2 = true;
-                //}
-            }
+            inPhase2 = DoG.Phase2Started;
         }
         return inPhase2 && !BossRushEvent.BossRushActive;
     }
