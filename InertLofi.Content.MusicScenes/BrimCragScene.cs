@@ -10,7 +10,7 @@ public class BrimCragScene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/BrimCrag");
 
-    public override SceneEffectPriority Priority => (SceneEffectPriority)8;
+    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeHigh;
 
     public override bool IsSceneEffectActive(Player player)
     {
