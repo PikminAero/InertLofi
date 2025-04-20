@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class ProfanedGuardiansScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Levi2");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/ProfanedGuardians");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 
