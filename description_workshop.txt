@@ -7,6 +7,8 @@ So far, this mod includes:
 	[*]Ceaseless Void
 	[*]Storm Weaver
 	[*]Signus
+	[*]Polterghast
+	[*]Old Duke
 	[*]Devourer of Gods (both phases)
 	[*]Yharon (both phases)
 	[*]Primordial Wyrm
