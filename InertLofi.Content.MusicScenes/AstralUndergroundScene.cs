@@ -9,10 +9,11 @@ public class AstralUndergroundScene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AstralUnderground");
 
-    public override SceneEffectPriority Priority => SceneEffectPriority.BiomeHigh;
+    public override SceneEffectPriority Priority => SceneEffectPriority.Event;
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<AstralUnderground>();
+        return player.InModBiome<AstralInfectionBiome>() && 
+        (Main.LocalPlayer.ZoneDirtLayerHeight || Main.LocalPlayer.ZoneRockLayerHeight || Main.LocalPlayer.ZoneUnderworldHeight);
     }
 }

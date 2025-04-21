@@ -1,1 +1,28 @@
-Modify this file with a description of your mod.
+This mods aims to replace Calamity's songs with Inert's covers.
+So far, this mod includes:
+
+- All bosses, except:
+	- Providence
+	- Ceaseless Void
+	- Storm Weaver
+	- Signus
+	- Devourer of Gods (both phases)
+	- Yharon (both phases)
+	- Primordial Wyrm
+	- Supreme Calamitas
+	All of these are because I was not able to find a way to make it work... yet.
+	- Exo Mechs
+	...because Inert hasn't made a cover of this one.
+
+- All Calamity biomes:
+	- Astral Infection (surface and underground)
+	- Draedon's Biolabs
+	- Brimstone Crags/Azafure
+	- Sulphurous Sea
+	- Sunken Sea
+	- Abyss layers 1, 2 and 4.
+	Abyss layer 3 will be added when Inert releases her cover of R'lyehian Depths.
+
+
+
+This mod does not yet replace the title theme and the interlude songs. I still need to figure these out.
