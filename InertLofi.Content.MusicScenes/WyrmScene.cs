@@ -10,7 +10,7 @@ public class WyrmScene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Wyrm");
 
-    public override SceneEffectPriority Priority => (SceneEffectPriority)8;
+    public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
 
     public override bool IsSceneEffectActive(Player player)
     {
