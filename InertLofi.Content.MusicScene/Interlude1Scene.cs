@@ -23,6 +23,10 @@ public class Interlude1Scene : ModSceneEffect
             return false;
         }
         // Return true if the music that's currently playing is the Interlude song
-        return Main.curMusic == MusicLoader.GetMusicSlot(cache, "Sounds/Music/Interlude1") && !BossRushEvent.BossRushActive;
+        bool isInterlude1Playing = Main.curMusic == MusicLoader.GetMusicSlot(cache, "Sounds/Music/Interlude1");
+        Main.NewText("Is Interlude1 playing? " + isInterlude1Playing);
+        Main.NewText("Interlude1 ID: " + MusicLoader.GetMusicSlot(cache, "Sounds/Music/Interlude1"));
+        Main.NewText("Currently playing ID: " + Main.curMusic);
+        return isInterlude1Playing && !BossRushEvent.BossRushActive;
     }
 }
