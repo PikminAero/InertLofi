@@ -1,21 +1,23 @@
 ﻿using Terraria.ModLoader;
 using HarmonyLib;
+using CalamityMod;
 using InertLofi;
 
 [HarmonyPatch(typeof(CalamityMod.CalamityMod), "GetMusicFromMusicMod")]
 public static class GetMusicFromMusicModPatch
 {
-
-    static bool Prefix(ref int? __result, string musicName)
+    static bool Prefix(CalamityMod.CalamityMod __instance, ref int? __result, string songFilename)
     {
-        __result = MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/"+musicName);
-        // If the song does not exist (eg. Inert hasn't made a cover of it),
-        // fallback to the default OST
-        if (__result == 0)
+        
+        int customSlot = MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/" + songFilename);
+
+        if (customSlot == 0)
         {
+            // Fall back to Calamity's default behavior
             return true;
         }
-        // Otherwise, replace
-        return false;
+
+        __result = customSlot;
+        return false; // Skip original method
     }
 }

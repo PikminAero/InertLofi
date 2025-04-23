@@ -5,14 +5,14 @@ using Terraria.ModLoader;
 
 namespace InertLofi.Content.MusicScenes;
 
-public class Abyss4Scene : ModSceneEffect
+public class Abyss1Scene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Abyss4");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AbyssLayer1");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.Event;
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<AbyssLayer4Biome>();
+        return player.InModBiome<AbyssLayer1Biome>();
     }
 }

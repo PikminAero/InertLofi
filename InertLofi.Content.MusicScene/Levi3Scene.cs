@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class Levi3Scene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Levi3");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Leviathan");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)9;
 

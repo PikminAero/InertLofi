@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class BumblebirbScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Bumblebirb");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Dragonfolly");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

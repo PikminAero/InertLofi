@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class SulphurSeaScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/SulphurSea");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/SulphurousSeaDay");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
 

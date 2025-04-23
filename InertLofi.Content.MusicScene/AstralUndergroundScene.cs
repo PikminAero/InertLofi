@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class AstralUndergroundScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AstralUnderground");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AstralInfectionUnderground");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.Event;
 

@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class CalCloneScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/CalClone");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/CalamitasClone");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

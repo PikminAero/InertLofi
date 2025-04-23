@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class PlagueGoliathScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/PlagueGoliath");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/PlaguebringerGoliath");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

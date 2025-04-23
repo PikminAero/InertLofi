@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class Yharon2Scene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Yharon2");
+    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/YharonPhase2");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

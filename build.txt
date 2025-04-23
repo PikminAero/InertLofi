@@ -4,3 +4,4 @@ version = 0.1
 modReferences = CalamityMod
 sortAfter = CalamityMod
 dllReferences = 0Harmony
+loadAfter = CalamityMod
