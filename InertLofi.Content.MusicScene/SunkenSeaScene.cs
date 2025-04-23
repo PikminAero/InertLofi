@@ -1,5 +1,6 @@
 ﻿using CalamityMod.BiomeManagers;
 using CalamityMod.BiomeManagers.BestiaryCategories;
+using CalamityMod.Events;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -13,6 +14,6 @@ public class SunkenSea : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<SunkenSeaBiome>();
+        return player.InModBiome<SunkenSeaBiome>() && !BossRushEvent.BossRushActive;
     }
 }

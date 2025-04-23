@@ -1,4 +1,5 @@
 ﻿using CalamityMod.BiomeManagers;
+using CalamityMod.Events;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -12,6 +13,6 @@ public class AstralSurfaceScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<AstralInfectionBiome>();
+        return player.InModBiome<AstralInfectionBiome>() && !BossRushEvent.BossRushActive;
     }
 }

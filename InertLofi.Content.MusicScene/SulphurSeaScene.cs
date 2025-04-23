@@ -1,5 +1,6 @@
 ﻿using CalamityMod.BiomeManagers;
 using CalamityMod.BiomeManagers.BestiaryCategories;
+using CalamityMod.Events;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -13,6 +14,6 @@ public class SulphurSeaScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<SulphurousSeaBiome>();
+        return player.InModBiome<SulphurousSeaBiome>() && !BossRushEvent.BossRushActive;
     }
 }
