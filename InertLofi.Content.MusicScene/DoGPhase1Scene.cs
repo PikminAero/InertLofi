@@ -1,4 +1,5 @@
 ﻿using CalamityMod.Events;
+using CalamityMod.NPCs.DesertScourge;
 using CalamityMod.NPCs.DevourerofGods;
 using Terraria;
 using Terraria.ModLoader;
@@ -15,7 +16,7 @@ public class DoG1PhaseScene : ModSceneEffect
     {
         return 1f;
     }
-        public override bool IsSceneEffectActive(Player player)
+     public override bool IsSceneEffectActive(Player player)
     {
         //int wantedId = ModContent.NPCType<DevourerofGodsHead>();
         bool inPhase2 = false;
@@ -26,6 +27,6 @@ public class DoG1PhaseScene : ModSceneEffect
         {
             inPhase2 = DoG.Phase2Started;
         }
-        return !inPhase2 && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && !inPhase2 && !BossRushEvent.BossRushActive;
     }
 }

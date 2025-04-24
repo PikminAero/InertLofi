@@ -22,6 +22,6 @@ public class DoG2Scene : ModSceneEffect
         {
             inPhase2 = DoG.Phase2Started;
         }
-        return inPhase2 && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && inPhase2 && !BossRushEvent.BossRushActive;
     }
 }
