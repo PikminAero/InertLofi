@@ -18,7 +18,6 @@ public class DoG1PhaseScene : ModSceneEffect
     }
      public override bool IsSceneEffectActive(Player player)
     {
-        //int wantedId = ModContent.NPCType<DevourerofGodsHead>();
         bool inPhase2 = false;
         ModNPC DoG = default(ModNPC);
         ModLoader.GetMod("CalamityMod").TryFind<ModNPC>("DevourerofGodsHead", out DoG);
@@ -37,7 +36,6 @@ public class DoG1PhaseScene : ModSceneEffect
                 }
             }
         }
-        Main.NewText("Is DoGPhase1 active? " + (NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && !inPhase2 && !BossRushEvent.BossRushActive));
         return NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && !inPhase2 && !BossRushEvent.BossRushActive;
     }
 }
