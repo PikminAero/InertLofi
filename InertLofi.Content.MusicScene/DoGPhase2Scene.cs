@@ -9,19 +9,34 @@ public class DoG2Scene : ModSceneEffect
 {
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/DevourerofGodsPhase2");
 
-    public override SceneEffectPriority Priority => (SceneEffectPriority)8;
+    public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
+    public override float GetWeight(Player player)
+    {
+        return 1f;
+    }
 
     public override bool IsSceneEffectActive(Player player)
     {
         //int wantedId = ModContent.NPCType<DevourerofGodsHead>();
         bool inPhase2 = false;
-        ModNPC npc = default(ModNPC);
-        ModLoader.GetMod("CalamityMod").TryFind<ModNPC>("DevourerofGodsHead", out npc);
-        DevourerofGodsHead DoG = (DevourerofGodsHead)npc;
-        if (DoG != null)
+        ModNPC DoG = default(ModNPC);
+        ModLoader.GetMod("CalamityMod").TryFind<ModNPC>("DevourerofGodsHead", out DoG);
+        for (int i = 0; i < Main.npc.Length; i++)
         {
-            inPhase2 = DoG.Phase2Started;
+            NPC npc = Main.npc[i];
+            if (!((Entity)npc).active)
+            {
+                continue;
+            }
+            if (npc.type == DoG.Type)
+            {
+                if (npc.GetLifePercent() <= 0.6f && npc.localAI[2] <= 400f)
+                {
+                    inPhase2 = true;
+                }
+            }
         }
+        Main.NewText("Is DoGPhase2 active? " + (NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && inPhase2 && !BossRushEvent.BossRushActive));
         return NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && inPhase2 && !BossRushEvent.BossRushActive;
     }
 }
