@@ -10,21 +10,31 @@ public class Yharon2Scene : ModSceneEffect
     public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/YharonPhase2");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
+    public override float GetWeight(Player player)
+    {
+        return 1f;
+    }
 
     public override bool IsSceneEffectActive(Player player)
     {
-        int wantedId = ModContent.NPCType<Yharon>();
         bool inPhase2 = false;
-        for (int i = 0; i < 200; i++)
+        ModNPC Yharon = default(ModNPC);
+        ModLoader.GetMod("CalamityMod").TryFind<ModNPC>("Yharon", out Yharon);
+        for (int i = 0; i < Main.npc.Length; i++)
         {
-            if (Main.npc[i].active && Main.npc[i].type == wantedId)
+            NPC npc = Main.npc[i];
+            if (!((Entity)npc).active)
             {
-                if ((double)Main.npc[i].GetLifePercent() <= 0.55)
+                continue;
+            }
+            if (npc.type == Yharon.Type)
+            {
+                if (npc.GetLifePercent() <= 0.55f)
                 {
                     inPhase2 = true;
                 }
             }
         }
-        return inPhase2 && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<Yharon>()) && inPhase2 && !BossRushEvent.BossRushActive;
     }
 }

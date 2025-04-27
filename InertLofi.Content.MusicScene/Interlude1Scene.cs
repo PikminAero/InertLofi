@@ -40,10 +40,11 @@ public class Interlude1Scene : ModSceneEffect
 
         // Return true if the music that's currently playing is the Interlude song
         bool isInterlude1Playing = Main.curMusic == calamity.GetMusicFromMusicMod("Interlude1");
-        Main.NewText("Is Interlude1 playing? " + isInterlude1Playing);
-        Main.NewText("Interlude1 ID: " + calamity.GetMusicFromMusicMod("Interlude1"));
-        Main.NewText("Currently playing ID: " + Main.curMusic);
-        Main.NewText("Is the scene active? " + (isInterlude1Playing && !BossRushEvent.BossRushActive));
+
+        //Main.NewText("Is Interlude1 playing? " + isInterlude1Playing);
+        //Main.NewText("Interlude1 ID: " + calamity.GetMusicFromMusicMod("Interlude1"));
+        //Main.NewText("Currently playing ID: " + Main.curMusic);
+        //Main.NewText("Is the scene active? " + (isInterlude1Playing && !BossRushEvent.BossRushActive));
         if ((isInterlude1Playing && !BossRushEvent.BossRushActive))
         {
             Main.musicBox2 = Music;
