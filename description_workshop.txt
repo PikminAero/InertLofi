@@ -1,32 +1,64 @@
-This mods aims to replace Calamity's songs with Inert's covers.
-So far, this mod includes:
+[h1]Calamity Mod Music (but it's lofi)[/h1]
+[url=https://discord.gg/6RN5Gnwg5R]Discord[/url]  [url=https://open.spotify.com/playlist/39go89cL4KB7kdldhFe4fs?si=805dc46a2bed4161]Spotify[/url]
 
-- All bosses, except:
+[b]This mod replaces the original Calamity Mod soundtrack with lofi covers by Vtuber and music producer, Inert.[/b] To listen to the music you must have Calamity Mod installed. You can get it here: https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072
+
+[b]Join our discord server to make recommendations, report bugs and enjoy a wholesome Calamity Mod Community![/]
+
+[hr][/hr]
+[h1]Tracklist[/h1]
+[i]Note: all covers are by vtuber Inert unless otherwise specified[/i]
 [list]
-	[*]Providence
-	[*]Ceaseless Void
-	[*]Storm Weaver
-	[*]Signus
-	[*]Polterghast
-	[*]Old Duke
-	[*]Devourer of Gods (both phases)
-	[*]Yharon (both phases)
-	[*]Primordial Wyrm
-	[*]Supreme Calamitas
-	[*] [i]All of these are because I was not able to find a way to make it work... yet.[/i]
-	[*]Exo Mechs (...because Inert hasn't made a cover of this one)
-[/list]
+[*] DM DOKURO - Tale of a Cruel World
+[*] DM DOKURO - Wasteland, Theme of the Sulphurous Sea
+[*] DM DOKURO - Guardian of the Former Sea, Theme of Desert Scourge
+[*] DM DOKURO -  Sanctuary (cover by Inert ft. Kisa)
+[*] Heart Plus Up! - Engineer's Sanctum, Theme of the Bio-labs
+[*] Heart Plus Up! - hesitation, Theme of the Sulphuric Depths
+[*] DM DOKURO - Infestation, Theme of Crabulon
+[*] DM DOKURO and SixteenInMono - The Filthy Mind, Theme of the Hive Mind
+[*] DM DOKURO and SixteenInMono - Blood Coagulant, Theme of the Perforators
+[*] DM DOKURO - Hadopelagic Pressure, Theme of the Abyss
+[*] DM DOKURO - Return to Slime, Theme of the Slime God
+[*] DM DOKURO - The Step Below Hell, Theme of the Profaned Crags
+[*] DM DOKURO - Antarctic Reinforcement, Structured Mix
+[*] DM DOKURO- Outcast of the Sulphurous Seas, Theme of the Aquatic Scourge
+[*] DM DOKURO - Left Alone, Theme of the Brimstone Elemental
+[*] DM DOKURO - Raw, Unfilitered, Calamity, Theme of Calamitas
+[*] DM DOKURO - Silence before the Storms, Interlude 01 (cover by Inert ft. Katie Shesko)
+[*] DM DOKURO - The Leviathan Trilogy (cover by Inert ft. Brimston Premium)
+[*] DM DOKURO - Heaven-Sent Abomination, Theme of the Astral Infection
+[*] DM DOKURO - Treasures within the Abomination, Theme of the Astral Underground
+[*] DM DOKURO - Interstellar Stomper, Theme of Astrum Aureus
+[*] DM DOKURO - Fly of Beelzebub, Theme of Plaguebringer Goliath
+[*] DM DOKURO - Open Frenzy, Theme of the Ravager
+[*] DM DOKURO - Pest of the Cosmos, Theme of Astrum Deus
+[*] DM DOKURO - Storms before the Catastrophes, Interlude 02
+[*] DM DOKURO - Unholy Ambush, Theme of the Profaned Guardians
+[*] DM DOKURO - Murderswarm, Theme of the Dragonfolly
+[*] DM DOKURO - Unholy Insurgency, Theme of Providence
+[*] DM DOKURO - Servants of the Scourge, Theme of the Rune of Kos Bosses
+[*] DM DOKURO - Feral Amalgamation, Theme of Polterghast
+[*] DM DOKURO - void, Theme of the Lower Abyss
+[*] DM DOKURO - Toxic Wisdom, Theme of the Old Duke
+[*] DM DOKURO - Scourge of the Universe (Eulogy for the Ego)
+[*] DM DOKURO - Universal Collapse, Theme of the Devourer of the Gods
+[*] DM DOKURO - Infernal Catharsis (Rebirth), Alternate Yharon Theme
+[*] DM DOKURO - Roar of the Jungle Dragon, Theme of Yharon
+[*] DM DOKURO - Catastrophes before the Calamity, Interlude 03
+[*] DM DOKURO - Stained, Brutal Calamity, Theme of Supreme Calamitas
+[*] DM DOKURO - Threats of the Ocean Floor, Theme of the Primoridal Wyrm
+[*] DM DOKURO - Cosmic Disgust, Theme of Astrageldon
+[*] Heart Plus Up! - Galactic Destruction, Theme of Astageldon
+[*] Heart Plus Up! - Serenity, Theme of the Lantern Festival (cover by Inert ft Hotline Sehwani)
 
-- All Calamity biomes:
-[list]
-	[*]Astral Infection (surface and underground)
-	[*]Draedon's Biolabs
-	[*]Brimstone Crags/Azafure
-	[*]Sulphurous Sea
-	[*]Sunken Sea
-	[*]Abyss layers 1, 2 and 4.
-	[*] [i]Abyss layer 3 will be added when Inert releases her cover of R'lyehian Depths.[/i]
-[/list]
+[hr][/hr]
+[h1]Credits[/h1]
 
+All compositions are the property of the original artists as noted in the tracklist above. We're so grateful for their contribution to the video game music world and to our musical journey particularly.
 
-This mod does not yet replace the title theme and the interlude songs. I still need to figure these out.
+Calamity Mod assets associated with this project are property of Calamity Mod.
+
+Programming and publishing by PikminAero
+Mod icon by ribbl, based on art by u/Aggressive-Mayo
+Music by Inert unless otherwise stated in tracklist
