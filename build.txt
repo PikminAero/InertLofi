@@ -1,6 +1,6 @@
 displayName = Inert Lofi
 author = PikminAero
-version = 0.1
+version = 1.0.0
 modReferences = CalamityMod
 sortAfter = CalamityMod
 loadAfter = CalamityMod
