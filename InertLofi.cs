@@ -2,7 +2,9 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 
@@ -16,10 +18,6 @@ namespace InertLofi
         public override void Load()
         {
             Instance = this;
-            // Init Harmony
-            Harmony harmony = new Harmony("com.inertlofi.harmony");
-            harmony.PatchAll();
-            Harmony.DEBUG = true;
         }
 
         public override void Unload()

@@ -15,9 +15,6 @@
 	    <HintPath>..\..\..\..\..\..\..\..\Steam\steamapps\workshop\content\1281930\2824688072\2024.12\CalamityMod\CalamityMod.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="lib\" />
-	</ItemGroup>
 
 	<!-- References -->
 
