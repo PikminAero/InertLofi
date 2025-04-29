@@ -78,7 +78,6 @@ namespace InertLofi
             EventCollection.Add(entry3);
             EventCollection.Add(entry4);
             EventCollection.Add(entry5);
-            Thread.Sleep(10000);
         }
 
         public override void Unload()
