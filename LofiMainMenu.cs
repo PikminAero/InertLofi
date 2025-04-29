@@ -83,7 +83,7 @@ namespace InertLofi
         public override ModSurfaceBackgroundStyle MenuBackgroundStyle => ModContent.GetInstance<NullSurfaceBackground>();
         private Asset<Texture2D> BackgroundTexture => ModContent.Request<Texture2D>("InertLofi/Assets/Images/Background_placeholder");
 
-        // Taken from Calamity's source and adapted to remove the cinders
+        // Taken from Calamity's source and adapted to change cinder colors
         // Before drawing the logo, draw the entire Calamity background. This way, the typical parallax background is skipped entirely.
         public override bool PreDrawLogo(SpriteBatch spriteBatch, ref Vector2 logoDrawCenter, ref float logoRotation, ref float logoScale, ref Color drawColor)
         {
