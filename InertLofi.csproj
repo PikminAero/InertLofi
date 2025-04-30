@@ -8,6 +8,9 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="localization\TODO.txt" />
+	</ItemGroup>
+	<ItemGroup>
 	  <PackageReference Include="Lib.Harmony" Version="2.3.6" />
 	</ItemGroup>
 	<ItemGroup>
