@@ -9,3 +9,8 @@ So far, this mod includes:
 This mod will be updated over time, as Inert releases new covers.
 
 Refer to the Steam Workshop page for more details, asset credits and links.
+
+CHANGELOGS
+
+Version 1.0.1 - Hotfix
+- Fixed incorrect loop points for Astral Infection Surface theme

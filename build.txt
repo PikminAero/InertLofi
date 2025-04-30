@@ -1,6 +1,6 @@
 displayName = Calamity Mod Music (but it's lofi)
 author = PikminAero
-version = 1.0.0
+version = 1.0.1
 modReferences = CalamityMod
 sortAfter = CalamityMod
 loadAfter = CalamityMod
