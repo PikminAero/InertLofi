@@ -5,3 +5,4 @@ X Implement Planetoid
 - Implement Astralgeldon
 X Fix Polterghast
 X Fix Old Duke
+- Config
