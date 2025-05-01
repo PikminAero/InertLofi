@@ -5,5 +5,5 @@ X Implement Planetoid
 - Implement Astralgeldon
 X Fix Polterghast
 X Fix Old Duke
-- Config
+X Config
 - Undepend from Calamity
