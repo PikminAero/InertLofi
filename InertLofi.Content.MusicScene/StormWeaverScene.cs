@@ -13,6 +13,8 @@ public class StormWeaverScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<StormWeaverHead>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<StormWeaverHead>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceStormWeaver
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

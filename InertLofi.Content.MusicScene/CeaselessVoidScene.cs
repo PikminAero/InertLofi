@@ -13,6 +13,8 @@ public class CeaselessVoidScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<CeaselessVoid>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<CeaselessVoid>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceCeaselessVoid
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

@@ -15,6 +15,8 @@ public class SlimeGodScene : ModSceneEffect
     {
         return NPC.AnyNPCs(ModContent.NPCType<SlimeGodCore>()) || NPC.AnyNPCs(ModContent.NPCType<EbonianPaladin>())
             || NPC.AnyNPCs(ModContent.NPCType<CrimulanPaladin>())
-            && !BossRushEvent.BossRushActive;
+            && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceSlimeGod
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

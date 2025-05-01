@@ -17,6 +17,8 @@ public class PolterghastScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<Polterghast>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<Polterghast>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplacePolterGhast
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

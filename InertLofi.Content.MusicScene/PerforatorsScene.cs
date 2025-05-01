@@ -15,6 +15,8 @@ public class PerforatorsScene : ModSceneEffect
     {
         return NPC.AnyNPCs(ModContent.NPCType<PerforatorHive>()) || NPC.AnyNPCs(ModContent.NPCType<PerforatorHeadSmall>()) 
             || NPC.AnyNPCs(ModContent.NPCType<PerforatorHeadMedium>()) || NPC.AnyNPCs(ModContent.NPCType<PerforatorHeadLarge>())
-            && !BossRushEvent.BossRushActive;
+            && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplacePerforators
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

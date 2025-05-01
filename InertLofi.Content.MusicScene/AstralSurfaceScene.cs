@@ -13,6 +13,9 @@ public class AstralSurfaceScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<AstralInfectionBiome>() && !BossRushEvent.BossRushActive;
+        return player.InModBiome<AstralInfectionBiome>() && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceAstralSurface
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }
+

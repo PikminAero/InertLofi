@@ -13,6 +13,8 @@ public class DesertScourgeScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<DesertScourgeHead>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<DesertScourgeHead>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceDesertScourge
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

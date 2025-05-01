@@ -15,6 +15,8 @@ public class ProfanedGuardiansScene : ModSceneEffect
     {
         return (NPC.AnyNPCs(ModContent.NPCType<ProfanedGuardianCommander>()) || NPC.AnyNPCs(ModContent.NPCType<ProfanedGuardianDefender>())
             || NPC.AnyNPCs(ModContent.NPCType<ProfanedGuardianHealer>()))
-            && !BossRushEvent.BossRushActive;
+            && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceProfanedGuardians
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

@@ -13,6 +13,8 @@ public class CalCloneScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<CalamitasClone>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<CalamitasClone>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceCalClone
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

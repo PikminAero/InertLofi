@@ -14,6 +14,8 @@ public class Levi3Scene : ModSceneEffect
     public override bool IsSceneEffectActive(Player player)
     {
         return NPC.AnyNPCs(ModContent.NPCType<Leviathan>()) && NPC.AnyNPCs(ModContent.NPCType<Anahita>()) 
-            && !BossRushEvent.BossRushActive;
+            && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceLevi3
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

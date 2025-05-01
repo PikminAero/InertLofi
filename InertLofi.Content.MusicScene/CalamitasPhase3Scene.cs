@@ -37,6 +37,8 @@ public class CalamitasPhase3Scene : ModSceneEffect
                 }
             }
         }
-        return NPC.AnyNPCs(ModContent.NPCType<SupremeCalamitas>()) && active && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<SupremeCalamitas>()) && active && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceCalamitasPhase3
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

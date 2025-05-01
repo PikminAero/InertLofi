@@ -18,6 +18,8 @@ public class WyrmScene : ModSceneEffect
             || NPC.AnyNPCs(ModContent.NPCType<ColossalSquid>())
             || NPC.AnyNPCs(ModContent.NPCType<ReaperShark>())
             || NPC.AnyNPCs(ModContent.NPCType<PrimordialWyrmHead>())
-            && !BossRushEvent.BossRushActive;
+            && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceWyrm
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

@@ -14,6 +14,8 @@ public class RavagerScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<RavagerBody>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<RavagerBody>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceRavager
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

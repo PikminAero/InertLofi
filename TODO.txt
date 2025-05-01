@@ -6,3 +6,4 @@ X Implement Planetoid
 X Fix Polterghast
 X Fix Old Duke
 - Config
+- Undepend from Calamity

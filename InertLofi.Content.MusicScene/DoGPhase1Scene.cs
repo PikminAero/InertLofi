@@ -36,6 +36,8 @@ public class DoG1PhaseScene : ModSceneEffect
                 }
             }
         }
-        return NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && !inPhase2 && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<DevourerofGodsHead>()) && !inPhase2 && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceDoGPhase1
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

@@ -14,6 +14,8 @@ public class SulphurSeaDayScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<SulphurousSeaBiome>() && !BossRushEvent.BossRushActive && Main.IsItDay() ;
+        return player.InModBiome<SulphurousSeaBiome>() && !BossRushEvent.BossRushActive && Main.IsItDay()
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceSulphurSeaDay
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

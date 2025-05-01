@@ -28,6 +28,9 @@ public class BioLabScene : ModSceneEffect
         double num7 = Math.Pow(1280.0, 2.0);
         bool flag = tileSafely.WallType == 20 || tileSafely.WallType == 21 || tileSafely.WallType == 40 || tileSafely.WallType == 71 || tileSafely.WallType == 136 || tileSafely.WallType == 137 || tileSafely.WallType == 231 || tileSafely.WallType == ModContent.WallType<AstralIceWall>() || tileSafely.WallType == ModContent.WallType<AstralSnowWall>() || tileSafely.WallType == ModContent.WallType<HavocplateWall>() || tileSafely.WallType == ModContent.WallType<CinderplateWall>() || tileSafely.WallType == ModContent.WallType<ElumplateWall>() || tileSafely.WallType == ModContent.WallType<HazardChevronWall>() || tileSafely.WallType == ModContent.WallType<LaboratoryPanelWall>() || tileSafely.WallType == ModContent.WallType<LaboratoryPlateBeam>() || tileSafely.WallType == ModContent.WallType<LaboratoryPlatePillar>() || tileSafely.WallType == ModContent.WallType<LaboratoryPlatingWall>() || tileSafely.WallType == ModContent.WallType<NavyplateWall>() || tileSafely.WallType == ModContent.WallType<PlagueContainmentCellsWall>() || tileSafely.WallType == ModContent.WallType<PlaguedPlateWall>() || tileSafely.WallType == ModContent.WallType<RustedPlatePillar>() || tileSafely.WallType == ModContent.WallType<RustedPlatingWall>();
         bool flag2 = (double)num <= num7 || (double)num2 <= num7 || (double)num3 <= num7 || (double)num4 <= num7 || (double)num5 <= num7 || (double)num6 <= num7;
-        return BiomeTileCounterSystem.ArsenalLabTiles > 150 && flag && flag2;
+        return BiomeTileCounterSystem.ArsenalLabTiles > 150 && flag && flag2
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceBioLab
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }
+

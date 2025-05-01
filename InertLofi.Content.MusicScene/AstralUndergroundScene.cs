@@ -16,6 +16,9 @@ public class AstralUndergroundScene : ModSceneEffect
     {
         return player.InModBiome<AstralInfectionBiome>() && 
         (Main.LocalPlayer.ZoneDirtLayerHeight || Main.LocalPlayer.ZoneRockLayerHeight || Main.LocalPlayer.ZoneUnderworldHeight)
-        && !BossRushEvent.BossRushActive;
+        && !BossRushEvent.BossRushActive
+        && ModContent.GetInstance<InertLofiConfig>().ReplaceAstralUnderground
+        && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }
+

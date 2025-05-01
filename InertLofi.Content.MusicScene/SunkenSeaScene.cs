@@ -14,6 +14,8 @@ public class SunkenSea : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<SunkenSeaBiome>() && !BossRushEvent.BossRushActive;
+        return player.InModBiome<SunkenSeaBiome>() && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceSunkenSea
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

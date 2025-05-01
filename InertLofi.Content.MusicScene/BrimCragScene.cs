@@ -14,6 +14,9 @@ public class BrimCragScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<BrimstoneCragsBiome>();
+        return player.InModBiome<BrimstoneCragsBiome>()
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceBrimCrag
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }
+

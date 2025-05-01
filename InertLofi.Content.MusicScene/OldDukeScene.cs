@@ -17,6 +17,8 @@ public class OldDukeScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<OldDuke>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<OldDuke>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceOldDuke
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

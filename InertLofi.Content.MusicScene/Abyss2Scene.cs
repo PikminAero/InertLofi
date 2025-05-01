@@ -14,6 +14,8 @@ public class Abyss2Scene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return player.InModBiome<AbyssLayer2Biome>() && !BossRushEvent.BossRushActive;
+        return player.InModBiome<AbyssLayer2Biome>() && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceAbyss2
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

@@ -13,6 +13,9 @@ public class BrimstoneElementalScene : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<BrimstoneElemental>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<BrimstoneElemental>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceBrimstoneElemental
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }
+

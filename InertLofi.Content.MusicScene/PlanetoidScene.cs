@@ -34,7 +34,9 @@ namespace InertLofi.InertLofi.Content.MusicScene
 
         public override bool IsSceneEffectActive(Player player)
         {
-            return TileCounter.DirtStoneMud > 100 && player.ZoneSkyHeight && !BossRushEvent.BossRushActive;
+            return TileCounter.DirtStoneMud > 100 && player.ZoneSkyHeight && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplacePlanetoid
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
         }
     }
 }

@@ -20,7 +20,9 @@ namespace InertLofi.InertLofi.Content.MusicScene
 
         public override bool IsSceneEffectActive(Player player)
         {
-            return LanternNight.LanternsUp && !BossRushEvent.BossRushActive;
+            return LanternNight.LanternsUp && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceLanternNight
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
         }
     }
 }

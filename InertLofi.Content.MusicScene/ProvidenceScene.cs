@@ -14,6 +14,8 @@ public class ProvidenceScene : ModSceneEffect
     public override float GetWeight(Player player) => 1f;
     public override bool IsSceneEffectActive(Player player)
     {
-        return NPC.AnyNPCs(ModContent.NPCType<Providence>()) && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<Providence>()) && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceProvidence
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }

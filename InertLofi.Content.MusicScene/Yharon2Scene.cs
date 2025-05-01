@@ -35,6 +35,8 @@ public class Yharon2Scene : ModSceneEffect
                 }
             }
         }
-        return NPC.AnyNPCs(ModContent.NPCType<Yharon>()) && inPhase2 && !BossRushEvent.BossRushActive;
+        return NPC.AnyNPCs(ModContent.NPCType<Yharon>()) && inPhase2 && !BossRushEvent.BossRushActive
+            && ModContent.GetInstance<InertLofiConfig>().ReplaceYharon2
+            && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
     }
 }
