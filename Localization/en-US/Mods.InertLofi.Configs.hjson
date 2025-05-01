@@ -1,0 +1,376 @@
+InertLofiConfig: {
+    DisplayName: Main Config
+  
+    Headers: {
+      GlobalToggle: Global Toggle
+      MusicToggles: Individual Toggles
+    }
+  
+    ToggleAll: {
+      Label: "Toggle all song replacements"
+      Tooltip:
+        '''
+        Choose whether this mod replaces songs at all.
+        '''
+    }
+  
+    ReplaceAbyss1: {
+      Label: "Replace the Sulphuric Depths' Theme (Abyss Layer 1)"
+      Tooltip:
+        '''
+        When enabled, replaces the music for the Sulphuric Depths (hesitation).
+        '''
+    }
+
+    ReplaceAbyss2: {
+        Label: "Replace the Murky Waters' Theme (Abyss Layer 2)"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Murky Waters (Hadopelagic Pressure).
+          '''
+    }
+
+    ReplaceAbyss4: {
+        Label: "Replace the Void's Theme (Abyss Layer 4)"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Void (void).
+          '''
+    }
+
+    ReplaceAquaticScourge: {
+        Label: "Replace the Aquatic Scourge's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Aquatic Scourge (Outcast of the Sulphurous Seas).
+          '''
+    }
+
+    ReplaceAstralSurface: {
+        Label: "Replace the Astral Surface's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Surface Astral Infection (The Heaven-Sent Abomination).
+          '''
+    }
+
+    ReplaceAstralUnderground: {
+        Label: "Replace the Astral Underground's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Underground Astral Infection (Treasures within the Abomination).
+          '''
+    }
+
+    ReplaceAstrumAureus: {
+        Label: "Replace Astrum Aureus' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Astrum Aureus (Interstellar Stomper).
+          '''
+    }
+
+    ReplaceAstrumDeus: {
+        Label: "Replace Astrum Deus' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Astrum Deus (Pest of the Cosmos).
+          '''
+    }
+
+    ReplaceBioLab: {
+        Label: "Replace the Bio-center Labs' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Draedon's Bio-center Labs (Engineer's Sanctum).
+          '''
+    }
+
+    ReplaceBrimCrag: {
+        Label: "Replace the Brimstone Crags' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Brimstone Crags (The Step Below Hell).
+          '''
+    }
+
+    ReplaceBrimstoneElemental: {
+        Label: "Replace the Brimstone Elemental's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Brimstone Elemental (Left Alone).
+          '''
+    }
+
+    ReplaceBumblebirb: {
+        Label: "Replace Dragonfolly's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Dragonfolly (Murderswarm).
+          '''
+    }
+
+    ReplaceCalamitasPhase1: {
+        Label: "Replace Calamitas' Phase 1 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Supreme Witch, Calamitas' first phase (Stained, Brutal Calamity - Grief).
+          '''
+    }
+
+    ReplaceCalamitasPhase2: {
+        Label: "Replace Calamitas' Phase 2 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Supreme Witch, Calamitas' second phase (Stained, Brutal Calamity - Lament).
+          '''
+    }
+
+    ReplaceCalamitasPhase3: {
+        Label: "Replace Calamitas' Phase 3 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Supreme Witch, Calamitas' third phase (Stained, Brutal Calamity - Epiphany).
+          '''
+    }
+
+    ReplaceCalamitasPhase4: {
+        Label: "Replace Calamitas' defeat phase Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Supreme Witch, Calamitas' defeat phase (Stained, Brutal Calamity - Acceptance).
+          '''
+    }
+
+    ReplaceCalClone: {
+        Label: "Replace Calamitas' Clone's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Calamitas' Clone (Raw, Unfiltered Calamity).
+          '''
+    }
+
+    ReplaceCeaselessVoid: {
+        Label: "Replace the Ceaseless Void's "
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Ceaseless Void (Servants of the Scourge, Type V).
+          '''
+    }
+
+    ReplaceCrabulon: {
+        Label: "Replace Crabulon's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Crabulon (Infestation/1NF3$+@+!0N).
+          '''
+    }
+
+    ReplaceCryogen: {
+        Label: "Replace Cryogen's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Cryogen (Antarctic Reinforcements) (currently the track's structured mix).
+          '''
+    }
+
+    ReplaceDesertScourge: {
+        Label: "Replace the Desert Scourge's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Desert Scourge (Guardian of the Former Seas).
+          '''
+    }
+
+    ReplaceDoGPhase1: {
+        Label: "Replace the Devourer of Gods' Phase 1 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Devourer of Gods' first phase (Scourge of the Universe) (currently Eulogy for the Ego version).
+          '''
+    }
+
+    ReplaceDoGPhase2: {
+        Label: "Replace the Devourer of Gods' Final Phase Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Devourer of Gods' final phase (Universal Collapse).
+          '''
+    }
+
+    ReplaceHiveMind: {
+        Label: "Replace the Hive Mind's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Hive Mind (The Filthy Mind).
+          '''
+    }
+
+    ReplaceLanternNight: {
+        Label: "Add Lantern Night Theme"
+        Tooltip:
+          '''
+          When enabled, adds a lofi cover of Serenity when the Lantern Night event is taking place.
+          '''
+    }
+
+    ReplaceLevi1: {
+        Label: "Replace the Siren's Song"
+        Tooltip:
+          '''
+          When enabled, replaces the music for ??? (Siren's Call).
+          '''
+    }
+
+    ReplaceLevi2: {
+        Label: "Replace Anahita and the Leviathan's Phase 1 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Anahita (Siren's War Cry).
+          '''
+    }
+
+    ReplaceLevi3: {
+        Label: "Replace Anahita and the Leviathan's Phase 2 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Anahita and the Leviathan (Forbidden Lullaby).
+          '''
+    }
+
+    ReplaceOldDuke: {
+        Label: "Replace the Old Duke's theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Old Duke (Toxic Wisdom).
+          '''
+    }
+
+    ReplacePerforators: {
+        Label: "Replace the Perforators' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Perforators (Blood Coagulant).
+          '''
+    }
+
+    ReplacePlagueGoliath: {
+        Label: "Replace the Plaguebringer Goliath's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Plaguebringer Goliath (Fly of Beelzebub).
+          '''
+    }
+
+    ReplacePlanetoid: {
+        Label: "Add Planetoid Theme"
+        Tooltip:
+          '''
+          When enabled, adds a lofi cover of Blessing of the Moon when in space near planetoids.
+          '''
+    }
+
+    ReplacePolterGhast: {
+        Label: "Replace Polterghast's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Polterghast (Feral Amalgamation).
+          '''
+    }
+
+    ReplaceProfanedGuardians: {
+        Label: "Replace the Profaned Guardians' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Profaned Guardians (Unholy Ambush).
+          '''
+    }
+
+    ReplaceProvidence: {
+        Label: "Replace the Profaned Goddess, Providence's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Profaned Goddess, Providence (Unholy Insurgency).
+          '''
+    }
+
+    ReplaceRavager: {
+        Label: "Replace the Ravager's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Ravager (Open Frenzy).
+          '''
+    }
+
+    ReplaceSignus: {
+        Label: "Replace Signus' Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Signus (Servants of the Scourge, Type S).
+          '''
+    }
+
+    ReplaceSlimeGod: {
+      Label: "Replace the Slime God's Theme"
+      Tooltip:
+        '''
+        When enabled, replaces the music for the Slime God (Return to Slime).
+        '''
+    }
+
+    ReplaceStormWeaver: {
+        Label: "Replace the Storm Weaver's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Storm Weaver (Servants of the Scourge, Type W).
+          '''
+    }
+
+    ReplaceSulphurSeaDay: {
+        Label: "Replace the Sulphurous Sea's Day Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Sulphurous Sea Day (wasteland).
+          '''
+    }
+
+    ReplaceSulphurSeaNight: {
+        Label: "Replace the Sulphurous Sea's Night Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Sulphurous Sea Night (caustic tides).
+          '''
+    }
+
+    ReplaceSunkenSea: {
+        Label: "Replace the Sunken Sea's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Sunken Sea (sanctuary).
+          '''
+    }
+
+    ReplaceWyrm: {
+        Label: "Replace the Primordial Wyrm's Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for the Primordial Wyrm (Threats on the Ocean Floor).
+          '''
+    }
+    
+    ReplaceYharon1: {
+        Label: "Replace Yharon's Phase 1 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Yharon's first phase (Infernal Catharsis (rebirth)).
+          '''
+    }
+
+    ReplaceYharon2: {
+        Label: "Replace Yharon's Phase 2 Theme"
+        Tooltip:
+          '''
+          When enabled, replaces the music for Yharon's second phase (Roar of the Jungle Dragon).
+          '''
+    }
+}
