@@ -1,9 +1,9 @@
-X Fix incorrect loop points in Astral Surface
-X Implement Lantern Night
-X Implement Planetoid
+X Fix incorrect loop points in Astral Surface (1.0.1)
+X Implement Lantern Night (1.1.0)
+X Implement Planetoid (1.1.0)
 - Fix issues with Infernum (DoG, Prov etc.)
 - Implement Astralgeldon
-X Fix Polterghast
-X Fix Old Duke
-X Config
+X Fix Polterghast (1.1.0)
+X Fix Old Duke (1.1.0)
+X Config (1.1.0)
 - Undepend from Calamity

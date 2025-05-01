@@ -12,5 +12,13 @@ Refer to the Steam Workshop page for more details, asset credits and links.
 
 CHANGELOGS
 
+Version 1.1.0 - The Config Update
+- Implemented mod configuration!
+You can now manually configure which song to replace individually.
+There's also a global toggle that will disable all song replacements.
+- And as a bonus, the Lantern Night AND Planetoids now have their lofi themes
+implemented!
+- Fixed Polterghast and Old Duke not being replaced
+
 Version 1.0.1 - Hotfix
 - Fixed incorrect loop points for Astral Infection Surface theme
