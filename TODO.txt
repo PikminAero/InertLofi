@@ -7,3 +7,5 @@ X Fix Polterghast (1.1.0)
 X Fix Old Duke (1.1.0)
 X Config (1.1.0)
 - Undepend from Calamity
+- Random Toggle
+- Music Boxes
