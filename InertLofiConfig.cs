@@ -13,9 +13,8 @@ namespace InertLofi
     {
 
         public static InertLofiConfig Instance;
-        // Please try to keep those alphabetically ordered...
         public override ConfigScope Mode => ConfigScope.ClientSide;
-
+        // Please try to keep those alphabetically ordered...
         [Header("GlobalToggle")]
         [DefaultValue(true)]
         public bool ToggleAll { get; set; }
