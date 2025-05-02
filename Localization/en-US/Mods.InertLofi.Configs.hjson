@@ -133,7 +133,7 @@ InertLofiConfig: {
 
 	ReplaceLanternNight: {
 		Label: Add Lantern Night Theme
-		Tooltip: When enabled, adds a lofi cover of Serenity when the Lantern Night event is taking place.
+		Tooltip: When enabled, adds a lofi cover of Serenity when the Lantern Night event is taking place (This takes priority over Vanilla Calamity Mod Music).
 	}
 
 	ReplaceLevi1: {
