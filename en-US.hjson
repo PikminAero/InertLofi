@@ -1,0 +1,25 @@
+Mods: {
+	InertLofi: {
+		Items: {
+			TitleMusicBox: {
+				Tooltip: ""
+				DisplayName: Title Music Box
+			}
+
+			UIMusicBox: {
+				Tooltip: ""
+				DisplayName: U I Music Box
+			}
+
+			ARMusicBox: {
+				Tooltip: ""
+				DisplayName: A R Music Box
+			}
+
+			CrabulonMusicBox: {
+				Tooltip: ""
+				DisplayName: Crabulon Music Box
+			}
+		}
+	}
+}

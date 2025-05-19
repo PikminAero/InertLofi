@@ -70,6 +70,16 @@ namespace InertLofi
         [DefaultValue(true)]
         public bool ReplaceHiveMind { get; set; }        
         [DefaultValue(true)]
+        public bool ReplaceInterlude1 { get; set; }
+        [DefaultValue(true)]
+        public bool ReplaceInterlude2 { get; set; }
+        [DefaultValue(true)]
+        public bool ReplaceInterlude3 { get; set; }
+        [DefaultValue(true)]
+        public bool ReplaceInterlude4 { get; set; }
+        [DefaultValue(true)]
+        public bool ReplaceInterlude5 { get; set; }
+        [DefaultValue(true)]
         public bool ReplaceLanternNight { get; set; }
         [DefaultValue(true)]
         public bool ReplaceLevi1 { get; set; }

@@ -8,6 +8,7 @@
 		
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="Items\Placeables\ARMusicBox.png" />
 	  <None Remove="localization\TODO.txt" />
 	</ItemGroup>
 	<ItemGroup>
