@@ -1,0 +1,17 @@
+Mods: {
+	InertLofi: {
+		Items: {
+			TitleMusicBox: {
+			}
+
+			UIMusicBox: {
+			}
+
+			ARMusicBox: {
+			}
+
+			CrabulonMusicBox: {
+			}
+		}
+	}
+}

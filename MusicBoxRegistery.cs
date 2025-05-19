@@ -22,9 +22,9 @@ namespace InertLofi
             // Title
             AddMusicBox("Assets/Music/CalamityTitle", ModContent.ItemType<TOACWMusicBox>(), ModContent.TileType<TOACWMusicBoxTile>());
             // Boss Music
-            AddMusicBox("Assets/Anahita", ModContent.ItemType<FLMusicBox>(), ModContent.TileType<FLMusicBoxTile>());
-            AddMusicBox("Assets/AnahitasLure", ModContent.ItemType<LureMusicBox>(), ModContent.TileType<LureMusicBoxTile>());
-            AddMusicBox("Assets/AquaticScourge", ModContent.ItemType<OOTSSMusicBox>(), ModContent.TileType<OOTSSMusicBoxTile>());
+            AddMusicBox("Assets/Music/Anahita", ModContent.ItemType<FLMusicBox>(), ModContent.TileType<FLMusicBoxTile>());
+            AddMusicBox("Assets/Music/AnahitasLure", ModContent.ItemType<LureMusicBox>(), ModContent.TileType<LureMusicBoxTile>());
+            AddMusicBox("Assets/Music/AquaticScourge", ModContent.ItemType<OOTSSMusicBox>(), ModContent.TileType<OOTSSMusicBoxTile>());
             AddMusicBox("Assets/Music/AstrumAureus", ModContent.ItemType<ISMusicBox>(), ModContent.TileType<ISMusicBoxTile>());
             AddMusicBox("Assets/Music/AstrumDeus", ModContent.ItemType<POTCMusicBox>(), ModContent.TileType<POTCMusicBoxTile>());
             AddMusicBox("Assets/Music/BrimstoneElemental", ModContent.ItemType<LAMusicBox>(), ModContent.TileType<LAMusicBoxTile>());
@@ -56,13 +56,13 @@ namespace InertLofi
             AddMusicBox("Assets/Music/YharonPhase2", ModContent.ItemType<ROTJDMusicBox>(), ModContent.TileType<ROTJDMusicBoxTile>());
 
             // Biome music
-            AddMusicBox("Assets/AbyssLayer1", ModContent.ItemType<HesitationMusicBox>(), ModContent.TileType<HesitationMusicBoxTile>());
-            AddMusicBox("Assets/AbyssLayer2", ModContent.ItemType<HPMusicBox>(), ModContent.TileType<HPMusicBoxTile>());
-            AddMusicBox("Assets/AbyssLayer4", ModContent.ItemType<VoidMusicBox>(), ModContent.TileType<VoidMusicBoxTile>());
-            AddMusicBox("Assets/AstralInfection", ModContent.ItemType<HSAMusicBox>(), ModContent.TileType<HSAMusicBoxTile>());
-            AddMusicBox("Assets/AstralInfectionUnderground", ModContent.ItemType<TWTAMusicBox>(), ModContent.TileType<TWTAMusicBoxTile>());
+            AddMusicBox("Assets/Music/AbyssLayer1", ModContent.ItemType<HesitationMusicBox>(), ModContent.TileType<HesitationMusicBoxTile>());
+            AddMusicBox("Assets/Music/AbyssLayer2", ModContent.ItemType<HPMusicBox>(), ModContent.TileType<HPMusicBoxTile>());
+            AddMusicBox("Assets/Music/AbyssLayer4", ModContent.ItemType<VoidMusicBox>(), ModContent.TileType<VoidMusicBoxTile>());
+            AddMusicBox("Assets/Music/AstralInfection", ModContent.ItemType<HSAMusicBox>(), ModContent.TileType<HSAMusicBoxTile>());
+            AddMusicBox("Assets/Music/AstralInfectionUnderground", ModContent.ItemType<TWTAMusicBox>(), ModContent.TileType<TWTAMusicBoxTile>());
             AddMusicBox("Assets/Music/BioLab", ModContent.ItemType<ESMusicBox>(), ModContent.TileType<ESMusicBoxTile>());
-            AddMusicBox("Assets/Music/BrimstoneCrags", ModContent.ItemType<TSBHMusicBox>(), ModContent.TileType<TSBHFMusicBoxTile>());
+            AddMusicBox("Assets/Music/BrimstoneCrags", ModContent.ItemType<TSBHMusicBox>(), ModContent.TileType<TSBHMusicBoxTile>());
             AddMusicBox("Assets/Music/Planetoids", ModContent.ItemType<BOTMMusicBox>(), ModContent.TileType<BOTMMusicBoxTile>());
             AddMusicBox("Assets/Music/SulphurousSeaDay", ModContent.ItemType<WastelandMusicBox>(), ModContent.TileType<WastelandMusicBoxTile>());
             AddMusicBox("Assets/Music/SulphurousSeaNight", ModContent.ItemType<CausticTidesMusicBox>(), ModContent.TileType<CausticTidesMusicBoxTile>());

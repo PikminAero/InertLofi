@@ -17,8 +17,268 @@ Mods: {
 			}
 
 			CrabulonMusicBox: {
-				Tooltip: ""
 				DisplayName: Crabulon Music Box
+				Tooltip: ""
+			}
+
+			OFMusicBox: {
+				Tooltip: ""
+				DisplayName: O F Music Box
+			}
+
+			NMMusicBox: {
+				Tooltip: ""
+				DisplayName: N M Music Box
+			}
+
+			MurderswarmMusicBox: {
+				Tooltip: ""
+				DisplayName: Murderswarm Music Box
+			}
+
+			LureMusicBox: {
+				Tooltip: ""
+				DisplayName: Lure Music Box
+			}
+
+			LAMusicBox: {
+				Tooltip: ""
+				DisplayName: L A Music Box
+			}
+
+			ISMusicBox: {
+				Tooltip: ""
+				DisplayName: I S Music Box
+			}
+
+			ICMusicBox: {
+				Tooltip: ""
+				DisplayName: I C Music Box
+			}
+
+			ICLegacyMusicBox: {
+				Tooltip: ""
+				DisplayName: I C Legacy Music Box
+			}
+
+			HSAMusicBox: {
+				Tooltip: ""
+				DisplayName: H S A Music Box
+			}
+
+			HPMusicBox: {
+				Tooltip: ""
+				DisplayName: H P Music Box
+			}
+
+			HesitationMusicBox: {
+				Tooltip: ""
+				DisplayName: Hesitation Music Box
+			}
+
+			GOTFSMusicBox: {
+				Tooltip: ""
+				DisplayName: G O T F S Music Box
+			}
+
+			FOTBMusicBox: {
+				Tooltip: ""
+				DisplayName: F O T B Music Box
+			}
+
+			FLMusicBox: {
+				Tooltip: ""
+				DisplayName: F L Music Box
+			}
+
+			FAMusicBox: {
+				Tooltip: ""
+				DisplayName: F A Music Box
+			}
+
+			ESMusicBox: {
+				Tooltip: ""
+				DisplayName: E S Music Box
+			}
+
+			EFTEMusicBox: {
+				Tooltip: ""
+				DisplayName: E F T E Music Box
+			}
+
+			CorrosionMusicBox: {
+				Tooltip: ""
+				DisplayName: Corrosion Music Box
+			}
+
+			CBTCMusicBox: {
+				Tooltip: ""
+				DisplayName: C B T C Music Box
+			}
+
+			CausticTidesMusicBox: {
+				Tooltip: ""
+				DisplayName: Caustic Tides Music Box
+			}
+
+			BOTMMusicBox: {
+				Tooltip: ""
+				DisplayName: B O T M Music Box
+			}
+
+			BCMusicBox: {
+				Tooltip: ""
+				DisplayName: B C Music Box
+			}
+
+			OOTSSMusicBox: {
+				DisplayName: O O T S S Music Box
+				Tooltip: ""
+			}
+
+			POTCMusicBox: {
+				DisplayName: P O T C Music Box
+				Tooltip: ""
+			}
+
+			RLYEHMusicBox: {
+				DisplayName: R L Y E H Music Box
+				Tooltip: ""
+			}
+
+			ROTJDMusicBox: {
+				DisplayName: R O T J D Music Box
+				Tooltip: ""
+			}
+
+			RTSMusicBox: {
+				DisplayName: R T S Music Box
+				Tooltip: ""
+			}
+
+			RUCMusicBox: {
+				DisplayName: R U C Music Box
+				Tooltip: ""
+			}
+
+			SanctuaryMusicBox: {
+				DisplayName: Sanctuary Music Box
+				Tooltip: ""
+			}
+
+			SBC1MusicBox: {
+				DisplayName: S B C1 Music Box
+				Tooltip: ""
+			}
+
+			SBC2MusicBox: {
+				DisplayName: S B C2 Music Box
+				Tooltip: ""
+			}
+
+			SBC3MusicBox: {
+				DisplayName: S B C3 Music Box
+				Tooltip: ""
+			}
+
+			SBC4MusicBox: {
+				DisplayName: S B C4 Music Box
+				Tooltip: ""
+			}
+
+			SBTCMusicBox: {
+				DisplayName: S B T C Music Box
+				Tooltip: ""
+			}
+
+			SBTSMusicBox: {
+				DisplayName: S B T S Music Box
+				Tooltip: ""
+			}
+
+			SerenityMusicBox: {
+				DisplayName: Serenity Music Box
+				Tooltip: ""
+			}
+
+			Servants1MusicBox: {
+				DisplayName: Servants1 Music Box
+				Tooltip: ""
+			}
+
+			Servants2MusicBox: {
+				DisplayName: Servants2 Music Box
+				Tooltip: ""
+			}
+
+			Servants3MusicBox: {
+				DisplayName: Servants3 Music Box
+				Tooltip: ""
+			}
+
+			SOTUMusicBox: {
+				DisplayName: S O T U Music Box
+				Tooltip: ""
+			}
+
+			SRMusicBox: {
+				DisplayName: S R Music Box
+				Tooltip: ""
+			}
+
+			SWMusicBox: {
+				DisplayName: S W Music Box
+				Tooltip: ""
+			}
+
+			TFMMusicBox: {
+				DisplayName: T F M Music Box
+				Tooltip: ""
+			}
+
+			TOACWMusicBox: {
+				DisplayName: T O A C W Music Box
+				Tooltip: ""
+			}
+
+			TOTOFMusicBox: {
+				DisplayName: T O T O F Music Box
+				Tooltip: ""
+			}
+
+			TSBHMusicBox: {
+				DisplayName: T S B H Music Box
+				Tooltip: ""
+			}
+
+			TWMusicBox: {
+				DisplayName: T W Music Box
+				Tooltip: ""
+			}
+
+			TWTAMusicBox: {
+				DisplayName: T W T A Music Box
+				Tooltip: ""
+			}
+
+			UAMusicBox: {
+				DisplayName: U A Music Box
+				Tooltip: ""
+			}
+
+			UCMusicBox: {
+				DisplayName: U C Music Box
+				Tooltip: ""
+			}
+
+			VoidMusicBox: {
+				DisplayName: Void Music Box
+				Tooltip: ""
+			}
+
+			WastelandMusicBox: {
+				DisplayName: Wasteland Music Box
+				Tooltip: ""
 			}
 		}
 	}

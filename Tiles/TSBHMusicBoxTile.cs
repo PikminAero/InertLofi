@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InertLofi.Tiles
 {
-    public class TSBHFMusicBoxTile : MusicBoxTile
+    public class TSBHMusicBoxTile : MusicBoxTile
     {
     }
 }

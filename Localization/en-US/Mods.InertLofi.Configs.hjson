@@ -235,4 +235,29 @@ InertLofiConfig: {
 		Label: Replace Yharon's Phase 2 Theme
 		Tooltip: When enabled, replaces the music for Yharon's second phase (Roar of the Jungle Dragon).
 	}
+
+	ReplaceInterlude1: {
+		Label: Replace Interlude1
+		Tooltip: ""
+	}
+
+	ReplaceInterlude2: {
+		Label: Replace Interlude2
+		Tooltip: ""
+	}
+
+	ReplaceInterlude3: {
+		Label: Replace Interlude3
+		Tooltip: ""
+	}
+
+	ReplaceInterlude4: {
+		Label: Replace Interlude4
+		Tooltip: ""
+	}
+
+	ReplaceInterlude5: {
+		Label: Replace Interlude5
+		Tooltip: ""
+	}
 }

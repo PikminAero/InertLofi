@@ -9,9 +9,9 @@ using Terraria.ModLoader;
 
 namespace InertLofi.Items.Placeables
 {
-    public class IC-LegacyMusicBox : MusicBox
+    public class RLYEHMusicBox : MusicBox
     {
-        public override int MusicBoxTile => ModContent.TileType<IC-LegacyMusicBoxTile>();
+        public override int MusicBoxTile => ModContent.TileType<RLYEHMusicBoxTile>();
 
 
         public override void AddRecipes()
