@@ -16,7 +16,8 @@ namespace InertLofi.Items.Placeables
 
         public override void AddRecipes()
         {
-            CreateRecipe().AddIngredient(ItemID.MusicBox).AddTile(TileID.WorkBenches).Register();
+            CreateRecipe().AddIngredient(ItemID.MusicBox).AddIngredient(ItemID.GlowingMushroom, 20)
+                .AddIngredient(ItemID.MushroomGrassSeeds, 3).AddTile(TileID.WorkBenches).Register();
 
         }
     }

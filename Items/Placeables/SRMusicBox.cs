@@ -13,11 +13,12 @@ namespace InertLofi.Items.Placeables
     {
         public override int MusicBoxTile => ModContent.TileType<SRMusicBoxTile>();
 
-
+        /* Unused
         public override void AddRecipes()
         {
             CreateRecipe().AddIngredient(ItemID.MusicBox).AddTile(TileID.WorkBenches).Register();
 
         }
+        */
     }
 }

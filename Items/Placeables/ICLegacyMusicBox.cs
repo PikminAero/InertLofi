@@ -13,11 +13,12 @@ namespace InertLofi.Items.Placeables
     {
         public override int MusicBoxTile => ModContent.TileType<ICLegacyMusicBoxTile>();
 
-
+        /* Since this song isn't covered, it would be pointless for its music box to be obtainable.
         public override void AddRecipes()
         {
             CreateRecipe().AddIngredient(ItemID.MusicBox).AddTile(TileID.WorkBenches).Register();
 
         }
+        */
     }
 }

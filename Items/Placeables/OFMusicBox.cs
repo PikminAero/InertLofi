@@ -1,4 +1,5 @@
-﻿using InertLofi.Tiles;
+﻿using CalamityMod.Items.TreasureBags.MiscGrabBags;
+using InertLofi.Tiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,8 @@ namespace InertLofi.Items.Placeables
 
         public override void AddRecipes()
         {
-            CreateRecipe().AddIngredient(ItemID.MusicBox).AddTile(TileID.WorkBenches).Register();
+            CreateRecipe().AddIngredient(ItemID.MusicBox).AddIngredient<FleshyGeode>(1).AddTile(TileID.WorkBenches).Register();
+            CreateRecipe().AddIngredient(ItemID.MusicBox).AddIngredient<NecromanticGeode>(1).AddTile(TileID.WorkBenches).Register();
 
         }
     }

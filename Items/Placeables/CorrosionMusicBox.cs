@@ -13,11 +13,12 @@ namespace InertLofi.Items.Placeables
     {
         public override int MusicBoxTile => ModContent.TileType<CorrosionMusicBoxTile>();
 
-
+        /* Since Corrosion isn't covered yet, there is not point in making this Music Box accessible
         public override void AddRecipes()
         {
             CreateRecipe().AddIngredient(ItemID.MusicBox).AddTile(TileID.WorkBenches).Register();
 
         }
+        */
     }
 }

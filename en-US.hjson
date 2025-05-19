@@ -267,8 +267,8 @@ Mods: {
 			}
 
 			UCMusicBox: {
-				DisplayName: U C Music Box (Lofi)
-				Tooltip: Unused. Will not play any song.
+				DisplayName: Universal Collapse Music Box (Lofi)
+				Tooltip: Plays the lofi version of Universal Collapse
 			}
 
 			VoidMusicBox: {
