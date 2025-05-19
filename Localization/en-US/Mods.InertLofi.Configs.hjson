@@ -3,7 +3,9 @@ InertLofiConfig: {
 
 	Headers: {
 		GlobalToggle: Global Toggle
-		MusicToggles: Individual Toggles
+		BossMusicToggles: Bosses Individual Toggles
+		BiomeMusicToggles: Biomes Individual Toggles
+		EventsMusicToggles: Events Individual Toggles
 	}
 
 	ToggleAll: {
@@ -237,27 +239,27 @@ InertLofiConfig: {
 	}
 
 	ReplaceInterlude1: {
-		Label: Replace Interlude1
-		Tooltip: ""
+		Label: Replace Interlude 1 (Post Calamitas Clone)
+		Tooltip: When enabled, replaces the music of the first interlude (Silence Before The Storms).
 	}
 
 	ReplaceInterlude2: {
-		Label: Replace Interlude2
-		Tooltip: ""
+		Label: Replace Interlude 2 (Post Moon Lord)
+		Tooltip: When enabled, replaces the music of the second interlude (Storms Before The Catastrophes).
 	}
 
 	ReplaceInterlude3: {
-		Label: Replace Interlude3
-		Tooltip: ""
+		Label: Replace Interlude 3 (Post Yharon)
+		Tooltip: When enabled, replaces the music of the third interlude (Catastrophes Before The Calamity).
 	}
 
 	ReplaceInterlude4: {
-		Label: Replace Interlude4
-		Tooltip: ""
+		Label: Replace Eulogy For The Ego
+		Tooltip: When enabled, replaces the music of the post-DoG interlude (Eulogy For The Ego).
 	}
 
 	ReplaceInterlude5: {
-		Label: Replace Interlude5
-		Tooltip: ""
+		Label: Replace Acceptance
+		Tooltip: When enabled, replaces the music that plays when defeating Supreme Calamitas (Stained, Brutal Calamity (Acceptance)).
 	}
 }

@@ -2,283 +2,283 @@ Mods: {
 	InertLofi: {
 		Items: {
 			TitleMusicBox: {
-				Tooltip: ""
-				DisplayName: Title Music Box
+				Tooltip: Plays the lofi version of Tale Of A Cruel World
+				DisplayName: Title Music Box (Lofi)
 			}
 
 			UIMusicBox: {
-				Tooltip: ""
-				DisplayName: U I Music Box
+				Tooltip: Plays the lofi version of Unholy Insurgency
+				DisplayName: Unholy Insurgency Music Box (Lofi)
 			}
 
 			ARMusicBox: {
-				Tooltip: ""
-				DisplayName: A R Music Box
+				Tooltip: Plays the lofi version of Antarctic Reinforcement (Structured Mix)
+				DisplayName: Antarctic Reinforcement Music Box (Lofi)
 			}
 
 			CrabulonMusicBox: {
-				DisplayName: Crabulon Music Box
-				Tooltip: ""
+				DisplayName: Infestation Music Box  (Lofi)
+				Tooltip: Plays the lofi version of Infestation
 			}
 
 			OFMusicBox: {
-				Tooltip: ""
-				DisplayName: O F Music Box
+				Tooltip: Plays the lofi version of Open Frenzy
+				DisplayName: Open Frenzy Music Box (Lofi)
 			}
 
 			NMMusicBox: {
-				Tooltip: ""
-				DisplayName: N M Music Box
+				Tooltip: Unused. Will not play any song.
+				DisplayName: N M Music Box (Lofi)
 			}
 
 			MurderswarmMusicBox: {
-				Tooltip: ""
-				DisplayName: Murderswarm Music Box
+				Tooltip: Plays the lofi version of Murderswarm
+				DisplayName: Murderswarm Music Box (Lofi)
 			}
 
 			LureMusicBox: {
-				Tooltip: ""
-				DisplayName: Lure Music Box
+				Tooltip: Plays the lofi version of Siren's Call
+				DisplayName: Siren's Call Music Box (Lofi)
 			}
 
 			LAMusicBox: {
-				Tooltip: ""
-				DisplayName: L A Music Box
+				Tooltip: Plays the lofi version of Left Alone
+				DisplayName: Left Alone Music Box (Lofi)
 			}
 
 			ISMusicBox: {
-				Tooltip: ""
-				DisplayName: I S Music Box
+				Tooltip: Plays the lofi version of Interstellay Stomper
+				DisplayName: Interstellar Stomper Music Box (Lofi)
 			}
 
 			ICMusicBox: {
-				Tooltip: ""
-				DisplayName: I C Music Box
+				Tooltip: Plays the lofi version of Infernal Catharsis
+				DisplayName: Infernal Catharsis Music Box (Lofi)
 			}
 
 			ICLegacyMusicBox: {
-				Tooltip: ""
-				DisplayName: I C Legacy Music Box
+				Tooltip: Unused. Will not play any song.
+				DisplayName: Infernal Catharsis (Legacy) Music Box (Lofi)
 			}
 
 			HSAMusicBox: {
-				Tooltip: ""
-				DisplayName: H S A Music Box
+				Tooltip: Plays the lofi version of Heaven-Sent Abomination
+				DisplayName: Heaven-Sent Abomination Music Box (Lofi)
 			}
 
 			HPMusicBox: {
-				Tooltip: ""
-				DisplayName: H P Music Box
+				Tooltip: Plays the lofi version of Hadopelagic Pressure
+				DisplayName: Hadopelagic Pressure Music Box (Lofi)
 			}
 
 			HesitationMusicBox: {
-				Tooltip: ""
-				DisplayName: Hesitation Music Box
+				Tooltip: Plays the lofi version of Hesitation
+				DisplayName: Hesitation Music Box (Lofi)
 			}
 
 			GOTFSMusicBox: {
-				Tooltip: ""
-				DisplayName: G O T F S Music Box
+				Tooltip: Plays the lofi version of Guardian Of The Former Seas
+				DisplayName: Guardian Of The Former Seas Music Box (Lofi)
 			}
 
 			FOTBMusicBox: {
-				Tooltip: ""
-				DisplayName: F O T B Music Box
+				Tooltip: Plays the lofi version of Fly Of Beelzebub
+				DisplayName: Fly Of Beelzebub Music Box (Lofi)
 			}
 
 			FLMusicBox: {
-				Tooltip: ""
-				DisplayName: F L Music Box
+				Tooltip: Plays the lofi version of Forgotten Lullaby
+				DisplayName: Forgotten Lullaby Music Box (Lofi)
 			}
 
 			FAMusicBox: {
-				Tooltip: ""
-				DisplayName: F A Music Box
+				Tooltip: Plays the lofi version of Feral Amalgamation
+				DisplayName: Feral Amalgamation Music Box (Lofi)
 			}
 
 			ESMusicBox: {
-				Tooltip: ""
-				DisplayName: E S Music Box
+				Tooltip: Plays the lofi version of Engineer's Sanctum
+				DisplayName: Engineer's Sanctum Music Box (Lofi)
 			}
 
 			EFTEMusicBox: {
-				Tooltip: ""
-				DisplayName: E F T E Music Box
+				Tooltip: Plays the lofi version of Eulogy For The Ego
+				DisplayName: Eulogy For The Ego Music Box (Lofi)
 			}
 
 			CorrosionMusicBox: {
-				Tooltip: ""
-				DisplayName: Corrosion Music Box
+				Tooltip: Unused. Will not play any song
+				DisplayName: Corrosion Music Box (Lofi)
 			}
 
 			CBTCMusicBox: {
-				Tooltip: ""
-				DisplayName: C B T C Music Box
+				Tooltip: Plays the lofi version of Catastrophes Before The Calamity
+				DisplayName: Catastrophes Before The Calamity Music Box (Lofi)
 			}
 
 			CausticTidesMusicBox: {
-				Tooltip: ""
-				DisplayName: Caustic Tides Music Box
+				Tooltip: Plays the lofi version of Caustic Tides
+				DisplayName: Caustic Tides Music Box (Lofi)
 			}
 
 			BOTMMusicBox: {
-				Tooltip: ""
-				DisplayName: B O T M Music Box
+				Tooltip: Plays the lofi version of Blessing Of The Moon
+				DisplayName: Blessing Of The Moon Music Box (Lofi)
 			}
 
 			BCMusicBox: {
-				Tooltip: ""
-				DisplayName: B C Music Box
+				Tooltip: Plays the lofi version of Blood Coagulant
+				DisplayName: Blood Coagulant Music Box (Lofi)
 			}
 
 			OOTSSMusicBox: {
-				DisplayName: O O T S S Music Box
-				Tooltip: ""
+				DisplayName: Outcast Of The Sulphurous Seas Music Box (Lofi)
+				Tooltip: Plays the lofi version of Outcast Of The Sulphurous Seas
 			}
 
 			POTCMusicBox: {
-				DisplayName: P O T C Music Box
-				Tooltip: ""
+				DisplayName: Pest Of The Cosmos Music Box (Lofi)
+				Tooltip: Plays the lofi version of Pest Of The Cosmos
 			}
 
 			RLYEHMusicBox: {
-				DisplayName: R L Y E H Music Box
-				Tooltip: ""
+				DisplayName: R'LYEH Music Box (Lofi)
+				Tooltip: Plays the lofi version of R'LYEH
 			}
 
 			ROTJDMusicBox: {
-				DisplayName: R O T J D Music Box
-				Tooltip: ""
+				DisplayName: Roar Of The Jungle Dragon Music Box (Lofi)
+				Tooltip: Plays the lofi version of Roar Of The Jungle Dragon
 			}
 
 			RTSMusicBox: {
-				DisplayName: R T S Music Box
-				Tooltip: ""
+				DisplayName: Return To Slime Music Box (Lofi)
+				Tooltip: Plays the lofi version of Return To Slime
 			}
 
 			RUCMusicBox: {
-				DisplayName: R U C Music Box
-				Tooltip: ""
+				DisplayName: Raw, Unfiltered Calamity Music Box (Lofi)
+				Tooltip: Plays the lofi version of Raw, Unfiltered Calamity
 			}
 
 			SanctuaryMusicBox: {
-				DisplayName: Sanctuary Music Box
-				Tooltip: ""
+				DisplayName: Sanctuary Music Box (Lofi)
+				Tooltip: Plays the lofi version of Sanctuary
 			}
 
 			SBC1MusicBox: {
-				DisplayName: S B C1 Music Box
-				Tooltip: ""
+				DisplayName: Stained, Brutal Calamity (Grief) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Stained, Brutal Calamity (Grief)
 			}
 
 			SBC2MusicBox: {
-				DisplayName: S B C2 Music Box
-				Tooltip: ""
+				DisplayName: Stained, Brutal Calamity (Lament) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Stained, Brutal Calamity (Lament)
 			}
 
 			SBC3MusicBox: {
-				DisplayName: S B C3 Music Box
-				Tooltip: ""
+				DisplayName: Stained, Brutal Calamity (Epiphany) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Stained, Brutal Calamity (Epiphany)
 			}
 
 			SBC4MusicBox: {
-				DisplayName: S B C4 Music Box
-				Tooltip: ""
+				DisplayName: Stained, Brutal Calamity (Acceptance) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Stained, Brutal Calamity (Acceptance)
 			}
 
 			SBTCMusicBox: {
-				DisplayName: S B T C Music Box
-				Tooltip: ""
+				DisplayName: Storms Before The Catastrophes Music Box (Lofi)
+				Tooltip: Plays the lofi version of Storms Before The Catastrophes
 			}
 
 			SBTSMusicBox: {
-				DisplayName: S B T S Music Box
-				Tooltip: ""
+				DisplayName: Silence Before The Storms Music Box (Lofi)
+				Tooltip: Plays the lofi version of Silence Before The Storms
 			}
 
 			SerenityMusicBox: {
-				DisplayName: Serenity Music Box
-				Tooltip: ""
+				DisplayName: Serenity Music Box (Lofi)
+				Tooltip: Plays the lofi version of Serenity
 			}
 
 			Servants1MusicBox: {
-				DisplayName: Servants1 Music Box
-				Tooltip: ""
+				DisplayName: Servants Of The Scourge (Storm Weaver) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Servants Of The Scourge (Storm Weaver)
 			}
 
 			Servants2MusicBox: {
-				DisplayName: Servants2 Music Box
-				Tooltip: ""
+				DisplayName: Servants Of The Scourge (Ceaseless Void) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Servants Of The Scourge (Ceaseless Void)
 			}
 
 			Servants3MusicBox: {
-				DisplayName: Servants3 Music Box
-				Tooltip: ""
+				DisplayName: Servants Of The Scourge (Signus) Music Box (Lofi)
+				Tooltip: Plays the lofi version of Servants Of The Scourge (Signus)
 			}
 
 			SOTUMusicBox: {
-				DisplayName: S O T U Music Box
-				Tooltip: ""
+				DisplayName: Scourge Of The Universe Music Box (Lofi)
+				Tooltip: Plays the lofi version of Scourge Of The Universe
 			}
 
 			SRMusicBox: {
-				DisplayName: S R Music Box
-				Tooltip: ""
+				DisplayName: S R Music Box (Lofi)
+				Tooltip: Unused. Will not play any song.
 			}
 
 			SWMusicBox: {
-				DisplayName: S W Music Box
-				Tooltip: ""
+				DisplayName: Siren's Warcry Music Box (Lofi)
+				Tooltip: Plays the lofi version of Siren's Warcry
 			}
 
 			TFMMusicBox: {
-				DisplayName: T F M Music Box
-				Tooltip: ""
+				DisplayName: The Filthy Mind Music Box (Lofi)
+				Tooltip: Plays the lofi version of The Filthy Mind
 			}
 
 			TOACWMusicBox: {
-				DisplayName: T O A C W Music Box
-				Tooltip: ""
+				DisplayName: Tale Of A Cruel World Music Box (Lofi)
+				Tooltip: Plays the lofi version of Tale Of A Cruel World
 			}
 
 			TOTOFMusicBox: {
-				DisplayName: T O T O F Music Box
-				Tooltip: ""
+				DisplayName: Threats Of The Ocean Floor Music Box (Lofi)
+				Tooltip: Plays the lofi version of Threats Of The Ocean Floor
 			}
 
 			TSBHMusicBox: {
-				DisplayName: T S B H Music Box
-				Tooltip: ""
+				DisplayName: The Step Bellow Hell Music Box (Lofi)
+				Tooltip: Plays the lofi version of The Step Bellow Hell
 			}
 
 			TWMusicBox: {
-				DisplayName: T W Music Box
-				Tooltip: ""
+				DisplayName: Toxic Wisdom Music Box (Lofi)
+				Tooltip: Plays the lofi version of Toxic Wisdom
 			}
 
 			TWTAMusicBox: {
-				DisplayName: T W T A Music Box
-				Tooltip: ""
+				DisplayName: Treasures Within The Abomination Music Box (Lofi)
+				Tooltip: Plays the lofi version of reasures Within The Abomination
 			}
 
 			UAMusicBox: {
-				DisplayName: U A Music Box
-				Tooltip: ""
+				DisplayName: Unholy Ambush Music Box (Lofi)
+				Tooltip: Plays the lofi version of Unholy Ambush
 			}
 
 			UCMusicBox: {
-				DisplayName: U C Music Box
-				Tooltip: ""
+				DisplayName: U C Music Box (Lofi)
+				Tooltip: Unused. Will not play any song.
 			}
 
 			VoidMusicBox: {
-				DisplayName: Void Music Box
-				Tooltip: ""
+				DisplayName: Void Music Box (Lofi)
+				Tooltip: Plays the lofi version of Void
 			}
 
 			WastelandMusicBox: {
-				DisplayName: Wasteland Music Box
-				Tooltip: ""
+				DisplayName: Wasteland Music Box (Lofi)
+				Tooltip: Plays the lofi version of Wasteland
 			}
 		}
 	}
