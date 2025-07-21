@@ -5,7 +5,7 @@ InertLofiConfig: {
 		GlobalToggle: Global Toggle
 		BossMusicToggles: Bosses Individual Toggles
 		BiomeMusicToggles: Biomes Individual Toggles
-		EventsMusicToggles: Events Individual Toggles
+		EventsMusicToggles: Events Individual Toggles (Interludes require reload)
 	}
 
 	ToggleAll: {
