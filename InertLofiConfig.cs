@@ -75,7 +75,13 @@ namespace InertLofi
         public bool ReplaceDoGPhase2 { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceEyeOfCthulhu { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceHiveMind { get; set; }
+
+        [DefaultValue(true)]
+        public bool ReplaceKingSlime { get; set; }
 
         [DefaultValue(true)]
         public bool ReplaceLevi1 { get; set; }
@@ -117,6 +123,9 @@ namespace InertLofi
         public bool ReplaceStormWeaver { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceWallOfFlesh { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceWyrm { get; set; }
 
         [DefaultValue(true)]
@@ -138,6 +147,9 @@ namespace InertLofi
         public bool ReplaceAbyss2 { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceAbyss3 { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceAbyss4 { get; set; }
 
         [DefaultValue(true)]
@@ -153,7 +165,13 @@ namespace InertLofi
         public bool ReplaceBrimCrag { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceOceanDay { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplacePlanetoid { get; set; }
+
+        [DefaultValue(true)]
+        public bool ReplaceSpace { get; set; }
 
         [DefaultValue(true)]
         public bool ReplaceSulphurSeaDay { get; set; }
@@ -164,11 +182,20 @@ namespace InertLofi
         [DefaultValue(true)]
         public bool ReplaceSunkenSea { get; set; }
 
+        [DefaultValue(true)]
+        public bool ReplaceTownDay { get; set; }
+
+        [DefaultValue(true)]
+        public bool ReplaceTundraSurface { get; set; }
+
         ///
 
         [Header("EventsMusicToggles")]
 
         ///
+
+        [DefaultValue(true)]
+        public bool ReplaceBloodMoon { get; set; }
 
         [DefaultValue(true)]
         public bool ReplaceInterlude1 { get; set; }
@@ -187,6 +214,12 @@ namespace InertLofi
 
         [DefaultValue(true)]
         public bool ReplaceLanternNight { get; set; }
+
+        [DefaultValue(true)]
+        public bool ReplaceNight { get; set; }
+
+        [DefaultValue(true)]
+        public bool ReplaceRain { get; set; }
 
     }
 }
