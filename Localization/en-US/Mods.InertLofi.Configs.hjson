@@ -262,4 +262,59 @@ InertLofiConfig: {
 		Label: Replace Acceptance
 		Tooltip: When enabled, replaces the music that plays when defeating Supreme Calamitas (Stained, Brutal Calamity (Acceptance)).
 	}
+
+	ReplaceEyeOfCthulhu: {
+		Label: Replace Eye Of Cthulhu
+		Tooltip: ""
+	}
+
+	ReplaceKingSlime: {
+		Label: Replace King Slime
+		Tooltip: ""
+	}
+
+	ReplaceWallOfFlesh: {
+		Label: Replace Wall Of Flesh
+		Tooltip: ""
+	}
+
+	ReplaceAbyss3: {
+		Label: Replace Abyss3
+		Tooltip: ""
+	}
+
+	ReplaceOceanDay: {
+		Label: Replace Ocean Day
+		Tooltip: ""
+	}
+
+	ReplaceSpace: {
+		Label: Replace Space
+		Tooltip: ""
+	}
+
+	ReplaceTownDay: {
+		Label: Replace Town Day
+		Tooltip: ""
+	}
+
+	ReplaceTundraSurface: {
+		Label: Replace Tundra Surface
+		Tooltip: ""
+	}
+
+	ReplaceBloodMoon: {
+		Label: Replace Blood Moon
+		Tooltip: ""
+	}
+
+	ReplaceNight: {
+		Label: Replace Night
+		Tooltip: ""
+	}
+
+	ReplaceRain: {
+		Label: Replace Rain
+		Tooltip: ""
+	}
 }
