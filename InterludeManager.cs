@@ -28,7 +28,7 @@ namespace InertLofi
                 TimeSpan.Zero,
                 TimeSpan.Zero,
                 () => DownedBossSystem.downedCalamitasClone,
-                () => CalamityConfig.Instance.Interlude1
+                () => CalamityClientConfig.Instance.Interludes
             );
             MusicEventEntry entry2 = new MusicEventEntry(
                 "MLDefeated_Lofi",
@@ -37,7 +37,7 @@ namespace InertLofi
                 TimeSpan.Zero,
                 TimeSpan.Zero,
                 () => NPC.downedMoonlord,
-                () => CalamityConfig.Instance.Interlude2
+                () => CalamityClientConfig.Instance.Interludes
             );
             MusicEventEntry entry3 = new MusicEventEntry(
                 "YharonDefeated_Lofi",
@@ -46,7 +46,7 @@ namespace InertLofi
                 TimeSpan.Zero,
                 TimeSpan.Zero,
                 () => DownedBossSystem.downedYharon,
-                () => CalamityConfig.Instance.Interlude3
+                () => CalamityClientConfig.Instance.Interludes
             );
             MusicEventEntry entry4 = new MusicEventEntry(
                 "DoGDefeated_Lofi",
@@ -55,7 +55,7 @@ namespace InertLofi
                 TimeSpan.Zero,
                 TimeSpan.Zero,
                 () => DownedBossSystem.downedDoG,
-                () => CalamityConfig.Instance.DevourerofGodsEulogy
+                () => CalamityClientConfig.Instance.DevourerofGodsEulogy
             );
             MusicEventEntry entry5 = new MusicEventEntry(
                 "ScalDefeated_Lofi",

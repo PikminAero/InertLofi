@@ -12,6 +12,14 @@ Refer to the Steam Workshop page for more details, asset credits and links.
 
 CHANGELOGS
 
+Version 1.2.1 - Hotfix
+- Updated the mod to be compatible with the new versions of Calamity and tModLoader.
+
+Version 1.2.0 - The Music Box Update
+- Finally added music boxes for all songs!
+- Cleaned up the mod config menu to sort by Boss music, Biome music and Event music
+- Added config for Interlude songs
+
 Version 1.1.0 - The Config Update
 - Implemented mod configuration!
 You can now manually configure which song to replace individually.

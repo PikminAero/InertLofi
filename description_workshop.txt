@@ -1,13 +1,17 @@
 [h1]Calamity Mod Music (but it's lofi)[/h1]
-[url=https://discord.gg/6RN5Gnwg5R]Discord[/url]  [url=https://open.spotify.com/playlist/39go89cL4KB7kdldhFe4fs?si=805dc46a2bed4161]Spotify[/url]
+[url=https://open.spotify.com/playlist/39go89cL4KB7kdldhFe4fs]Spotify[/url]
+[url=https://music.apple.com/us/artist/inert/1547742203]Apple Music[/url]
+[url=https://www.youtube.com/watch?v=tALsd2S9oZ0&list=PLxfhEVi_Fm3fyb2Xmc2wB8u3k4K6P57cR]YouTube Playlist[/url]
 
-[b]This mod replaces the original Calamity Mod soundtrack with lofi covers by Vtuber and music producer, Inert.[/b] To listen to the music you must have Calamity Mod installed. You can get it here: https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072
+[b]This mod replaces the original Calamity Mod OST with lofi covers by YouTuber and Music Producer, Inert ([url=https://steamcommunity.com/id/inertsongs]Steam[/url], [url=https://www.youtube.com/channel/UCQ5qlFkbD_cZiX4ggQ3S0CQ]YouTube[/url]).[/b]
+As of now, this mod still requires both the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072]Calamity[/url] as well as the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688266]Calamity Mod Music[/url] mods to run.
 
-[b]Join our discord server to make recommendations, report bugs and enjoy a wholesome Calamity Mod Community![/]
+[b]Join our [url=https://discord.gg/6RN5Gnwg5R]Discord[/url] to make recommendations, report bugs and enjoy a wholesome Calamity Mod Community![/b]
+While we try to read all comments on the workshop, joining the Discord to make suggestion or notify us of issues will massively heighten your visibility to us!
 
 [hr][/hr]
 [h1]Tracklist[/h1]
-[i]Note: all covers are by vtuber Inert unless otherwise specified[/i]
+[i]Note: all covers are by Inert unless otherwise specified[/i]
 [list]
 [*] DM DOKURO - Tale of a Cruel World
 [*] DM DOKURO - Wasteland, Theme of the Sulphurous Sea
@@ -61,4 +65,5 @@ Calamity Mod assets associated with this project are property of Calamity Mod.
 
 Programming and publishing by PikminAero
 Mod icon by ribbl, based on art by u/Aggressive-Mayo
-Music by Inert unless otherwise stated in tracklist
+Music by Inert unless otherwise stated in tracklist[quote=tModLoader InertLofi]
+Developed By PikminAero[/quote]
