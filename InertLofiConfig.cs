@@ -165,6 +165,12 @@ namespace InertLofi
         public bool ReplaceBrimCrag { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceDungeon { get; set; }
+
+        [DefaultValue(true)]
+        public bool ReplaceMushroom { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceOceanDay { get; set; }
 
         [DefaultValue(true)]
@@ -199,6 +205,9 @@ namespace InertLofi
 
         [DefaultValue(true)]
         public bool ReplaceInterlude1 { get; set; }
+
+        [DefaultValue(false)]
+        public bool UseVCMMInterlude1 { get; set; }
 
         [DefaultValue(true)]
         public bool ReplaceInterlude2 { get; set; }

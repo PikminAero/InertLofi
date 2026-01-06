@@ -239,8 +239,13 @@ InertLofiConfig: {
 	}
 
 	ReplaceInterlude1: {
-		Label: Replace Interlude 1 (Post Calamitas Clone)
+		Label: Replace Interlude 1 (Post Wall of Flesh)
 		Tooltip: When enabled, replaces the music of the first interlude (Silence Before The Storms).
+	}
+
+	UseVCMMInterlude1: {
+		Label: Use Vanilla Calamity Music Interlude 1 (Post Wall of Flesh)
+		Tooltip: When enabled, plays The Resurrection Of A Cruel World instead of Silence Before The Storms for the first interlude.
 	}
 
 	ReplaceInterlude2: {
@@ -265,56 +270,66 @@ InertLofiConfig: {
 
 	ReplaceEyeOfCthulhu: {
 		Label: Replace Eye Of Cthulhu
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Eye of Cthulhu (Bloodshot Barrage)."
 	}
 
 	ReplaceKingSlime: {
 		Label: Replace King Slime
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for King Slime (Gelatinous Monarch)."
 	}
 
 	ReplaceWallOfFlesh: {
 		Label: Replace Wall Of Flesh
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Wall of Flesh (Fated Insurrection)."
 	}
 
 	ReplaceAbyss3: {
 		Label: Replace Abyss3
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Thermal Vents (R'leyhian Depths)."
 	}
 
 	ReplaceOceanDay: {
 		Label: Replace Ocean Day
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Ocean Day (shoreline)."
 	}
 
 	ReplaceSpace: {
 		Label: Replace Space
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for Space (Starry Ascent)."
 	}
 
 	ReplaceTownDay: {
 		Label: Replace Town Day
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Town Day (Haven in the Sunlight)."
 	}
 
 	ReplaceTundraSurface: {
 		Label: Replace Tundra Surface
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Tundra (Frozen Over)."
 	}
 
 	ReplaceBloodMoon: {
 		Label: Replace Blood Moon
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Blood Moon (Congealing Eclipse)."
 	}
 
 	ReplaceNight: {
 		Label: Replace Night
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Night (Laze of the Sky)."
 	}
 
 	ReplaceRain: {
 		Label: Replace Rain
-		Tooltip: ""
+		Tooltip: "When enabled, replaces the music for the Rain (downpour)."
+	}
+
+	ReplaceMushroom: {
+		Label: Replace Glowing Mushroom Biome
+		Tooltip: "When enabled, replaces the music for the Glowing Mushroom Biome (Psychedelic Depths)."
+	}
+
+	ReplaceDungeon: {
+		Label: Replace Dungeon
+		Tooltip: "When enabled, replaces the music for the Dungeon (Chambers of the Tyrant)."
 	}
 }
