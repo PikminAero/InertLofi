@@ -342,4 +342,9 @@ InertLofiConfig: {
 		Label: Replace Meteorite
 		Tooltip: When enabled, replaces the music for the Meteorite (The Abomination's Omen).
 	}
+
+	ReplaceUnderground: {
+		Label: Replace Underground
+		Tooltip: When enabled, replaces the music for the Underground (Under the Earth).
+	}
 }

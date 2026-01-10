@@ -200,6 +200,9 @@ namespace InertLofi
         [DefaultValue(true)]
         public bool ReplaceTundraSurface { get; set; }
 
+        [DefaultValue(true)]
+        public bool ReplaceUnderground { get; set; }
+
         ///
 
         [Header("EventsMusicToggles")]
