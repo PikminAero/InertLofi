@@ -15,7 +15,7 @@ namespace InertLofi.InertLofi.Content.MusicScene
 {
     public class MeteorScene : ModSceneEffect
     {
-        public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Planetoids");
+        public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Meteor");
 
         public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
         public override float GetWeight(Player player)
