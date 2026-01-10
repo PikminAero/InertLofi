@@ -14,7 +14,7 @@ namespace InertLofi.InertLofi.Content.MusicScene
 {
     public class BloodMoonScene : ModSceneEffect
     {
-        public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/BloodMoon");
+        public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/BloodMoon");
 
         public override SceneEffectPriority Priority => SceneEffectPriority.Event;
 

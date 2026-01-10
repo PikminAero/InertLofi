@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class RavagerScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/Ravager");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Ravager");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

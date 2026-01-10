@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class AquaticScourgeScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AquaticScourge");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/AquaticScourge");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

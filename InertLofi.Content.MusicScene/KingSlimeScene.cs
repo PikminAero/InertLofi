@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class KingSlimeScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/KingSlime");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/KingSlime");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
 

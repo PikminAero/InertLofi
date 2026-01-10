@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class OldDukeScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/OldDuke");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/OldDuke");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
     public override float GetWeight(Player player)

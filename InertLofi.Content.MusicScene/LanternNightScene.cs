@@ -14,7 +14,7 @@ namespace InertLofi.InertLofi.Content.MusicScene
 {
     public class LanternNightScene : ModSceneEffect
     {
-        public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/LanternNight");
+        public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/LanternNight");
 
         public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
 

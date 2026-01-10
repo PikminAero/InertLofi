@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class EyeOfCthulhuScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/EyeOfCthulhu");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/EyeOfCthulhu");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
 

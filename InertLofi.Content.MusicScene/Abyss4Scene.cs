@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class Abyss4Scene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/AbyssLayer4");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/AbyssLayer4");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.Event;
 

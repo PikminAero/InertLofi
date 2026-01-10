@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class DesertScourgeScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/DesertScourge");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/DesertScourge");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

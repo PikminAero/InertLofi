@@ -9,7 +9,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class CalamitasPhase1Scene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/CalamitasPhase1");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/CalamitasPhase1");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BossHigh;
     public override float GetWeight(Player player)

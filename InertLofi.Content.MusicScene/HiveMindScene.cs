@@ -7,7 +7,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class HiveMindScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/HiveMind");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/HiveMind");
 
     public override SceneEffectPriority Priority => (SceneEffectPriority)8;
 

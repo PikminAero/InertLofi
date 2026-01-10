@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class TownDayScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/TownDay");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/TownDay");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BiomeMedium;
 

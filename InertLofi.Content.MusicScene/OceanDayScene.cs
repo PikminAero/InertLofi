@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class OceanDayScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot((Mod)(object)InertLofiMod.Instance, "Assets/Music/OceanDay");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/OceanDay");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
 
