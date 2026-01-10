@@ -252,6 +252,9 @@ namespace InertLofi
         public bool ReplaceRain { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceSlimeRain { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceTorchGod { get; set; }
 
     }
