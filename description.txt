@@ -12,6 +12,23 @@ Refer to the Steam Workshop page for more details, asset credits and links.
 
 CHANGELOGS
 
+Version 1.3.0 - More Songs Update
+- Added a bunch of new songs:
+	- Pyschedelic Depths (Glowing Mushroom)
+	- Chambers of the Tyran (Chambers of the Tyran)
+	- Menace of the Chasms (Eater of Worlds)
+	- The Abomination's Omen (Meteorite)
+	- Under the Earth (Underground)
+	- Wrath from the Crypt (Skeletron)
+	- Trial by Fire (Torch God)
+	- Serene Tides (Ocean Night)
+	- Amidst the Minerals (Marble/Granite)
+	- Inside the Glaciers (Tundra Underground)
+	- Gelatin Showers (Slime Rain)
+	- Nearing the Inferno (Caverns)
+	- Descent into Hell's Fury (Underworld)
+- These songs do not have music boxes for now. They will come in a later update.
+
 Version 1.2.2 - Interludes no more :(
 - After multiple returns, the current implementation of the Interludes does not work properly for everyone.
 While a better solution is being worked on, the Interludes will not be replaced. The songs will still be available
