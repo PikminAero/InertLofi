@@ -183,6 +183,9 @@ namespace InertLofi
         public bool ReplaceOceanDay { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceOceanNight { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplacePlanetoid { get; set; }
 
         [DefaultValue(true)]

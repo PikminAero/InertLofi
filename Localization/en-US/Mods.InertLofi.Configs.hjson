@@ -357,4 +357,9 @@ InertLofiConfig: {
 		Label: Replace Torch God
 		Tooltip: When enabled, replaces the music for the Torch God event (Trial by Fire).
 	}
+
+	ReplaceOceanNight: {
+		Label: Replace Ocean Night
+		Tooltip: When enabled, replaces the music for the Ocean Night (Serene Tides).
+	}
 }
