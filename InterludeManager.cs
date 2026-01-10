@@ -41,7 +41,7 @@ namespace InertLofi
                 return MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Interlude2");
             }
         }
-
+        /*
         public override void OnWorldLoad()
         {
             var original = new List<MusicEventEntry>(CalamityMod.Systems.MusicEventSystem.EventCollection);
@@ -133,5 +133,6 @@ namespace InertLofi
                 EventCollection.Add(original[4]);
             };
         }
+        */
     }
 }
