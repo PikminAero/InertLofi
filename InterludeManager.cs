@@ -16,6 +16,32 @@ namespace InertLofi
 {
     public class InterludeManager : ModSystem
     {
+        private int GetModdedInterlude1()
+        {
+            if (InertLofiConfig.Instance.UseVCMMInterlude1)
+            {
+                return MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/VCMMInterlude1");
+            }
+            else
+            {
+                return MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Interlude1");
+            }
+        }
+
+        private int GetModdedInterlude2()
+        {
+            /*
+            if (InertLofiConfig.Instance.UseVCMMInterlude2)
+            {
+                return MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/VCMMInterlude2");
+            }
+            else
+            */
+            {
+                return MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Interlude2");
+            }
+        }
+
         public override void OnWorldLoad()
         {
             var original = new List<MusicEventEntry>(CalamityMod.Systems.MusicEventSystem.EventCollection);
@@ -23,7 +49,7 @@ namespace InertLofi
             EventCollection.RemoveAll(e => true);
             MusicEventEntry entry = new MusicEventEntry(
                 "CloneDefeated_Lofi",
-                MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Interlude1"),
+                GetModdedInterlude1(),
                 TimeSpan.FromSeconds(146),
                 TimeSpan.Zero,
                 TimeSpan.Zero,
@@ -32,7 +58,7 @@ namespace InertLofi
             );
             MusicEventEntry entry2 = new MusicEventEntry(
                 "MLDefeated_Lofi",
-                MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Interlude2"),
+                GetModdedInterlude2(),
                 TimeSpan.FromSeconds(204),
                 TimeSpan.Zero,
                 TimeSpan.Zero,
