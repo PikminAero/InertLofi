@@ -120,6 +120,9 @@ namespace InertLofi
         public bool ReplaceSignus { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceSkeletron { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceSlimeGod { get; set; }
 
         [DefaultValue(true)]

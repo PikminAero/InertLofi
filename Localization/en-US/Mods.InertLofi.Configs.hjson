@@ -347,4 +347,9 @@ InertLofiConfig: {
 		Label: Replace Underground
 		Tooltip: When enabled, replaces the music for the Underground (Under the Earth).
 	}
+
+	ReplaceSkeletron: {
+		Label: Replace Skeletron
+		Tooltip: When enabled, replaces the music for Skeletron (Wrath from the Crypt).
+	}
 }
