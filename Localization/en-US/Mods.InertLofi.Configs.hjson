@@ -362,4 +362,9 @@ InertLofiConfig: {
 		Label: Replace Ocean Night
 		Tooltip: When enabled, replaces the music for the Ocean Night (Serene Tides).
 	}
+
+	ReplaceMarbleGranite: {
+		Label: Replace Geodes
+		Tooltip: When enabled, replaces the music for the Granite and Marble biomes (Amidst the Minerals).
+	}
 }

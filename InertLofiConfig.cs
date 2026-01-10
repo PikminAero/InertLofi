@@ -174,6 +174,9 @@ namespace InertLofi
         public bool ReplaceDungeon { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceMarbleGranite { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceMeteor { get; set; }
 
         [DefaultValue(true)]
