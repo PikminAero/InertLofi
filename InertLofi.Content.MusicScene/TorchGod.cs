@@ -9,7 +9,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class TorchGod : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/TownDay");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/TorchGod");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BiomeMedium;
 
