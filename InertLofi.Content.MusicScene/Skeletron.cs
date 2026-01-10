@@ -8,7 +8,7 @@ namespace InertLofi.Content.MusicScenes;
 
 public class SkeletronScene : ModSceneEffect
 {
-    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/EyeOfCthulhu");
+    public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Skeletron");
 
     public override SceneEffectPriority Priority => SceneEffectPriority.BossMedium;
 
