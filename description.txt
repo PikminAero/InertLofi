@@ -12,6 +12,11 @@ Refer to the Steam Workshop page for more details, asset credits and links.
 
 CHANGELOGS
 
+Version 1.2.2 - Interludes no more :(
+- After multiple returns, the current implementation of the Interludes does not work properly for everyone.
+While a better solution is being worked on, the Interludes will not be replaced. The songs will still be available
+through their music boxes (which you can craft with a Music Box and some associated material).
+
 Version 1.2.1 - Hotfix
 - Updated the mod to be compatible with the new versions of Calamity and tModLoader.
 
