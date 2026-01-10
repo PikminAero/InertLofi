@@ -332,4 +332,9 @@ InertLofiConfig: {
 		Label: Replace Dungeon
 		Tooltip: When enabled, replaces the music for the Dungeon (Chambers of the Tyrant).
 	}
+
+	ReplaceEaterOfWorlds: {
+		Label: Replace Eater Of Worlds
+		Tooltip: When enabled, replaced the music for the Eater Of Worlds (Menace of the Chasms).
+	}
 }

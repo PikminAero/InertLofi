@@ -8,3 +8,17 @@ X Fix Old Duke (1.1.0)
 X Config (1.1.0)
 - Undepend from Calamity
 X Music Boxes (1.2.0)
+
+
+- Meteor (Abomination's Omen)
+- Under the Earth (Underground)
+- Skeletron (Wrath from the Crypt)
+- Torch God (Trial by Fire)
+- Resurrection of a Cruel World (Interlude 1, post WoF)
+- Ocean Night (Serene Tides)
+- Amidst the Minerals (Marble/Granite)
+- Underground Tundra (Inside the Glaciers)
+- Slime Rain (Gelatin Showers)
+- Nearing the Inferno (Caverns)
+- Underworld (Descent into Hell's Fury)
+- 

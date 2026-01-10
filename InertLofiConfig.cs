@@ -75,6 +75,9 @@ namespace InertLofi
         public bool ReplaceDoGPhase2 { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceEaterOfWorlds { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceEyeOfCthulhu { get; set; }
 
         [DefaultValue(true)]
