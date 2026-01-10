@@ -377,4 +377,9 @@ InertLofiConfig: {
 		Label: Replace Slime Rain
 		Tooltip: When enabled, replaces the music for the Slime Rain event (Gelatin Showers).
 	}
+
+	ReplaceCaverns: {
+		Label: Replace Caverns
+		Tooltip: When enabled, replaces the music for the Caverns layer (Nearing the Inferno).
+	}
 }

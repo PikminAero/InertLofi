@@ -171,6 +171,9 @@ namespace InertLofi
         public bool ReplaceBrimCrag { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceCaverns { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceDungeon { get; set; }
 
         [DefaultValue(true)]

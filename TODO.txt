@@ -10,11 +10,6 @@ X Config (1.1.0)
 X Music Boxes (1.2.0)
 
 
-- Resurrection of a Cruel World (Interlude 1, post WoF)
-- Ocean Night (Serene Tides)
-- Amidst the Minerals (Marble/Granite)
-- Underground Tundra (Inside the Glaciers)
-- Slime Rain (Gelatin Showers)
-- Nearing the Inferno (Caverns)
+- Resurrection of a Cruel World (Interlude 1, post WoF) (wait for Ribbl's music box)
 - Underworld (Descent into Hell's Fury)
 -
