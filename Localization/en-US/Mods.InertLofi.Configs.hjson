@@ -367,4 +367,9 @@ InertLofiConfig: {
 		Label: Replace Geodes
 		Tooltip: When enabled, replaces the music for the Granite and Marble biomes (Amidst the Minerals).
 	}
+
+	ReplaceTundraUnderground: {
+		Label: Replace Tundra Underground
+		Tooltip: When enabled, replaces the music for the Underground Tundra (Inside the Glaciers).
+	}
 }

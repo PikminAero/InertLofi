@@ -210,6 +210,9 @@ namespace InertLofi
         public bool ReplaceTundraSurface { get; set; }
 
         [DefaultValue(true)]
+        public bool ReplaceTundraUnderground { get; set; }
+
+        [DefaultValue(true)]
         public bool ReplaceUnderground { get; set; }
 
         ///
