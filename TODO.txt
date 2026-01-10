@@ -10,9 +10,6 @@ X Config (1.1.0)
 X Music Boxes (1.2.0)
 
 
-- Under the Earth (Underground)
-- Skeletron (Wrath from the Crypt)
-- Torch God (Trial by Fire)
 - Resurrection of a Cruel World (Interlude 1, post WoF)
 - Ocean Night (Serene Tides)
 - Amidst the Minerals (Marble/Granite)

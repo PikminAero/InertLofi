@@ -242,5 +242,8 @@ namespace InertLofi
         [DefaultValue(true)]
         public bool ReplaceRain { get; set; }
 
+        [DefaultValue(true)]
+        public bool ReplaceTorchGod { get; set; }
+
     }
 }

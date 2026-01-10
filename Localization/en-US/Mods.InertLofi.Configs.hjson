@@ -352,4 +352,9 @@ InertLofiConfig: {
 		Label: Replace Skeletron
 		Tooltip: When enabled, replaces the music for Skeletron (Wrath from the Crypt).
 	}
+
+	ReplaceTorchGod: {
+		Label: Replace Torch God
+		Tooltip: When enabled, replaces the music for the Torch God event (Trial by Fire).
+	}
 }
