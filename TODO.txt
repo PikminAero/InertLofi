@@ -10,7 +10,6 @@ X Config (1.1.0)
 X Music Boxes (1.2.0)
 
 
-- Meteor (Abomination's Omen)
 - Under the Earth (Underground)
 - Skeletron (Wrath from the Crypt)
 - Torch God (Trial by Fire)
@@ -21,4 +20,4 @@ X Music Boxes (1.2.0)
 - Slime Rain (Gelatin Showers)
 - Nearing the Inferno (Caverns)
 - Underworld (Descent into Hell's Fury)
-- 
+-

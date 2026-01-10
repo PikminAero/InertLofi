@@ -335,6 +335,11 @@ InertLofiConfig: {
 
 	ReplaceEaterOfWorlds: {
 		Label: Replace Eater Of Worlds
-		Tooltip: When enabled, replaced the music for the Eater Of Worlds (Menace of the Chasms).
+		Tooltip: When enabled, replaces the music for the Eater Of Worlds (Menace of the Chasms).
+	}
+
+	ReplaceMeteor: {
+		Label: Replace Meteorite
+		Tooltip: When enabled, replaces the music for the Meteorite (The Abomination's Omen).
 	}
 }
