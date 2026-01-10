@@ -218,6 +218,9 @@ namespace InertLofi
         [DefaultValue(true)]
         public bool ReplaceUnderground { get; set; }
 
+        [DefaultValue(true)]
+        public bool ReplaceUnderworld { get; set; }
+
         ///
 
         [Header("EventsMusicToggles")]

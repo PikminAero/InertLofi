@@ -382,4 +382,9 @@ InertLofiConfig: {
 		Label: Replace Caverns
 		Tooltip: When enabled, replaces the music for the Caverns layer (Nearing the Inferno).
 	}
+
+	ReplaceUnderworld: {
+		Label: Replace Underworld
+		Tooltip: When enabled, replaces the music for the Underworld (Descent into Hell's Fury).
+	}
 }
