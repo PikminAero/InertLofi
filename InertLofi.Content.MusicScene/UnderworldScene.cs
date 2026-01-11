@@ -16,7 +16,7 @@ namespace InertLofi.InertLofi.Content.MusicScene
     {
         public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/Underworld");
 
-        public override SceneEffectPriority Priority => SceneEffectPriority.BiomeLow;
+        public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
 
         public override bool IsSceneEffectActive(Player player)
         {

@@ -16,7 +16,7 @@ namespace InertLofi.InertLofi.Content.MusicScene
     {
         public override int Music => MusicLoader.GetMusicSlot(InertLofiMod.Instance, "Assets/Music/MarbleGranite");
 
-        public override SceneEffectPriority Priority => SceneEffectPriority.BiomeLow;
+        public override SceneEffectPriority Priority => SceneEffectPriority.BiomeMedium;
 
         public override bool IsSceneEffectActive(Player player)
         {
