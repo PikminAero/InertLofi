@@ -1,5 +1,6 @@
 ﻿using CalamityMod.BiomeManagers;
 using CalamityMod.BiomeManagers.BestiaryCategories;
+using CalamityMod.Events;
 using CalamityMod.Scenes.MusicScenes;
 using Terraria;
 using Terraria.ID;
@@ -15,18 +16,13 @@ public class TorchGod : ModSceneEffect
 
     public override bool IsSceneEffectActive(Player player)
     {
-        int torchGodNPC = NPC.FindFirstNPC(NPCID.TorchGod);
-        if (torchGodNPC != -1)
-        {
-            float distToPlayer = Main.npc[torchGodNPC].Distance(player.Center);
-            return (player.happyFunTorchTime || distToPlayer <= 525f * 16f) // magic number from VCMM
-                && ModContent.GetInstance<InertLofiConfig>().ReplaceTorchGod
-                && ModContent.GetInstance<InertLofiConfig>().ToggleAll;
-        }
-        else
-        {
-            return false;
-        }
+        // Pulled straight from VCMM.
+        // 525f * 16f was originally named PlayerFlags.MusicTileRange and seems to be some magic number.
+        // I shall not question it
+        return player.happyFunTorchTime || (NPC.AnyNPCs(NPCID.TorchGod) && Main.npc[NPC.FindFirstNPC(NPCID.TorchGod)].Distance(player.Center) <= 525f * 16f)
+            && !BossRushEvent.BossRushActive
+            && InertLofiConfig.Instance.ReplaceTorchGod
+            && InertLofiConfig.Instance.ToggleAll;
     }
 }
 
