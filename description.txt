@@ -12,6 +12,10 @@ Refer to the Steam Workshop page for more details, asset credits and links.
 
 CHANGELOGS
 
+Version 1.3.2 - tModLoader update
+- Rebuilt the mod to be compatible with tModLoader's latest version.
+- Apologies for the delay!
+
 Version 1.3.1 - Hotfix
 - Fixed the Planetoid music box not being craftable.
 
